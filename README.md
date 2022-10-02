@@ -11,6 +11,23 @@ The aim of this repository is to provide useful scripts that can be adapted to o
 Hope it is useful! :smile:
 
 
+## BlackHat MEA CTF
+
+### Crypto
+
+- [Ursa Minor](BlackHat%20MEA%20CTF/Ursa%20Minor/): [solve.py](BlackHat%20MEA%20CTF/Ursa%20Minor/solve.py)
+
+### Pwn
+
+- [fno-stack-protector](BlackHat%20MEA%20CTF/fno-stack-protector/): [solve.py](BlackHat%20MEA%20CTF/fno-stack-protector/solve.py)
+- [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory/): [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)
+- [Secret Note](BlackHat%20MEA%20CTF/Secret%20Note/): [solve.py](BlackHat%20MEA%20CTF/Secret%20Note/solve.py)
+
+### Rev
+
+- [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/): [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py)
+
+
 ## CTFlearn
 
 ### Binary
