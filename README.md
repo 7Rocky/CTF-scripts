@@ -30,8 +30,6 @@ Hope it is useful! :smile:
 
 ## CTFlearn
 
-### Binary
-
 | Binary                                              | Scripts / Programs                                                                                         | Language         | Purpose                                                           |
 | --------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------- | ----------------------------------------------------------------- |
 | [Favourite Color](CTFlearn/Binary/Favorite%20Color) | [solve.py](CTFlearn/Binary/Favorite%20Color/solve.py)                                                      | Python           | 32-bit binary. Buffer Overflow. Calling a function with arguments |
