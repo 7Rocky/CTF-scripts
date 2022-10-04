@@ -20,7 +20,7 @@ Hope it is useful! :smile:
 | Pwn                                                              | Scripts / Programs                                            | Language | Purpose                                                                                      |
 | ---------------------------------------------------------------- | ------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
 | [fno-stack-protector](BlackHat%20MEA%20CTF/fno-stack-protector/) | [solve.py](BlackHat%20MEA%20CTF/fno-stack-protector/solve.py) | Python   | 64-bit binary. Buffer Overflow. Redirect program execution                                   |
-| [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory/)            | [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)     | Python   | 64-bit binary. Heap exploitation. Unsorted bin attack. Fastbin attack                        |
+| [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory/)            | [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)     | Python   | 64-bit binary. Heap exploitation. Unsorted bin attack. Fastbin attack. GOT overwrite         |
 | [Secret Note](BlackHat%20MEA%20CTF/Secret%20Note/)               | [solve.py](BlackHat%20MEA%20CTF/Secret%20Note/solve.py)       | Python   | 64-bit binary. Buffer Overflow. Format String vulnerability. PIE, Canary, NX and ASLR bypass |
 
 | Rev                                                              | Scripts / Programs                                               | Language | Purpose                            |
