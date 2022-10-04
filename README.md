@@ -82,7 +82,7 @@ Hope it is useful! :smile:
 
 | Pwn                               | Scripts / Programs                        | Language | Purpose                                                                                         |
 | --------------------------------- | ----------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
-| [scrambler](Securinets/scrambler) | [solve.py](Securinets/scrambler/solve.py) | Python   | Securinets Finals 2022. 64-bit binary. ROP. Ret2Libc. GOT overwrite. Stack Pivot. Seccomp rules |
+| [scrambler](Securinets/scrambler) | [solve.py](Securinets/scrambler/solve.py) | Python   | Securinets Finals 2022. 64-bit binary. ROP. Ret2Libc. GOT overwrite. Stack Pivot. `seccomp` rules |
 
 
 ## SEETF
