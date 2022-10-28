@@ -46,6 +46,10 @@ Hope it is useful! :smile:
 | ---------------------------------------- | --------------------------------------------------- | -------- | ------------------------------------ |
 | [AHS512](HackTheBoo%20CTF/Crypto/AHS512) | [solve.py](HackTheBoo%20CTF/Crypto/AHS512/solve.py) | Python   | Custom hash function. Bit operations |
 
+| Forensics                                                                 | Scripts / Programs                                                     | Language | Purpose                                   |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------- | -------- | ----------------------------------------- |
+| [Halloween Invitation](HackTheBoo%20CTF/Forensics/Halloween%20Invitation) | [solve.py](HackTheBoo%20CTF/Forensics/Halloween%20Invitation/solve.py) | Python   | Microsoft Office VBA macros deobfuscation |
+
 | Pwn                                               | Scripts / Programs                                      | Language | Purpose                                                   |
 | ------------------------------------------------- | ------------------------------------------------------- | -------- | --------------------------------------------------------- |
 | [Entity](HackTheBoo%20CTF/Pwn/Entity)             | [solve.py](HackTheBoo%20CTF/Pwn/Entity/solve.py)        | Python   | 64-bit binary. Union structure. Type confusion            |
