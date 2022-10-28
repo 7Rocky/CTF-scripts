@@ -40,6 +40,20 @@ Hope it is useful! :smile:
 | [Simple Programming](CTFlearn/Binary/Simple%20Programming) | [solve.rb](CTFlearn/Binary/Simple%20Programming/solve.rb)<br>[solve2.rb](CTFlearn/Binary/Simple%20Programming/solve2.rb) | Ruby<br>Ruby | Iterate a file and count lines that match a condition |
 
 
+## HackTheBoo CTF
+
+| Crypto                                   | Scripts / Programs                                  | Language | Purpose                              |
+| ---------------------------------------- | --------------------------------------------------- | -------- | ------------------------------------ |
+| [AHS512](HackTheBoo%20CTF/Crypto/AHS512) | [solve.py](HackTheBoo%20CTF/Crypto/AHS512/solve.py) | Python   | Custom hash function. Bit operations |
+
+| Pwn                                               | Scripts / Programs                                      | Language | Purpose                                                   |
+| ------------------------------------------------- | ------------------------------------------------------- | -------- | --------------------------------------------------------- |
+| [Entity](HackTheBoo%20CTF/Pwn/Entity)             | [solve.py](HackTheBoo%20CTF/Pwn/Entity/solve.py)        | Python   | 64-bit binary. Union structure. Type confusion            |
+| [Finale](HackTheBoo%20CTF/Pwn/Finale)             | [solve.py](HackTheBoo%20CTF/Pwn/Finale/solve.py)        | Python   | 64-bit binary. open-read-write ROP chain                  |
+| [Pumpking](HackTheBoo%20CTF/Pwn/Pumpking)         | [solve.py](HackTheBoo%20CTF/Pwn/Pumpking/solve.py)      | Python   | 64-bit binary. `seccomp` rules. Custom shellcode          |
+| [Spooky Time](HackTheBoo%20CTF/Pwn/Spooky%20Time) | [solve.py](HackTheBoo%20CTF/Pwn/Spooky%20Time/solve.py) | Python   | 64-bit binary. Format String vulnerability. GOT overwrite |
+
+
 ## ImaginaryCTF
 
 | Crypto                                                                           | Scripts / Programs                                                      | Language | Purpose                                                          |
