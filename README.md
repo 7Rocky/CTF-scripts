@@ -58,6 +58,27 @@ Hope it is useful! :smile:
 | [Spooky Time](HackTheBoo%20CTF/Pwn/Spooky%20Time) | [solve.py](HackTheBoo%20CTF/Pwn/Spooky%20Time/solve.py) | Python   | 64-bit binary. Format String vulnerability. GOT overwrite |
 
 
+## HTB UniCTF
+
+| Crypto                                             | Scripts / Programs                                     | Language          | Purpose                             |
+| -------------------------------------------------- | ------------------------------------------------------ | ----------------- | ----------------------------------- |
+| [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith) | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py) | Python / SageMath | RSA. Known bits. Coppersmith attack |
+
+| Pwn                                                                      | Scripts / Programs                                                  | Language | Purpose                                               |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------- | -------- | ----------------------------------------------------- |
+| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls)                      | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py)              | Python   | 64-bit binary. Buffer Overflow. Ret2Libc              |
+| [Sacred Scrolls'Revenge](HTB%20UniCTF/Pwn/Sacred%20Scrolls%27%20Revenge) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls%27%20Revenge/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc. Brute force |
+| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)                                  | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)                     | Python   | 64-bit binary. Heap exploitation. Fast bin attack     |
+
+| Reversing                                               | Scripts / Programs                                          | Language | Purpose                            |
+| ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ---------------------------------- |
+| [Potion Master](HTB%20UniCTF/Reversing/Potion%20Master) | [solve.py](HTB%20UniCTF/Reversing/Potion%20Master/solve.py) | Python   | z3 solution to a set of conditions |
+
+| Web                                                         | Scripts / Programs                                         | Language | Purpose                                                      |
+| ----------------------------------------------------------- | ---------------------------------------------------------- | -------- | ------------------------------------------------------------ |
+| [BatchCraft Potions](HTB%20UniCTF/Web/BatchCraft%20Potions) | [solve.py](HTB%20UniCTF/Web/BatchCraft%20Potions/solve.py) | Python   | GraphQL batching attack. Send XSS and DOM Clobbering payload |
+
+
 ## ImaginaryCTF
 
 | Crypto                                                                           | Scripts / Programs                                                      | Language | Purpose                                                          |
