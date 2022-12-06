@@ -64,11 +64,10 @@ Hope it is useful! :smile:
 | -------------------------------------------------- | ------------------------------------------------------ | ----------------- | ----------------------------------- |
 | [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith) | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py) | Python / SageMath | RSA. Known bits. Coppersmith attack |
 
-| Pwn                                                                      | Scripts / Programs                                                  | Language | Purpose                                               |
-| ------------------------------------------------------------------------ | ------------------------------------------------------------------- | -------- | ----------------------------------------------------- |
-| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls)                      | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py)              | Python   | 64-bit binary. Buffer Overflow. Ret2Libc              |
-| [Sacred Scrolls'Revenge](HTB%20UniCTF/Pwn/Sacred%20Scrolls%27%20Revenge) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls%27%20Revenge/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc. Brute force |
-| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)                                  | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)                     | Python   | 64-bit binary. Heap exploitation. Fast bin attack     |
+| Pwn                                                 | Scripts / Programs                                     | Language | Purpose                                                           |
+| --------------------------------------------------- | ------------------------------------------------------ | -------- | ----------------------------------------------------------------- |
+| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc                          |
+| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)             | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)        | Python   | 64-bit binary. Heap exploitation. Use After Free. Fast bin attack |
 
 | Reversing                                               | Scripts / Programs                                          | Language | Purpose                            |
 | ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ---------------------------------- |
