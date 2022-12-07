@@ -62,6 +62,7 @@ Hope it is useful! :smile:
 
 | Crypto                                             | Scripts / Programs                                     | Language          | Purpose                             |
 | -------------------------------------------------- | ------------------------------------------------------ | ----------------- | ----------------------------------- |
+| [AESWCM](HTB%20UniCTF/Crypto/AESWCM)               | [solve.py](HTB%20UniCTF/Crypto/AESWCM/solve.py)        | Python            | Custom encryption using AES and XOR |
 | [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith) | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py) | Python / SageMath | RSA. Known bits. Coppersmith attack |
 
 | Pwn                                                 | Scripts / Programs                                     | Language | Purpose                                                           |
