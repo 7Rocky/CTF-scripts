@@ -81,11 +81,12 @@ Hope it is useful! :smile:
 
 ## ImaginaryCTF
 
-| Crypto                                                                           | Scripts / Programs                                                      | Language | Purpose                                                          |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------- | ---------------------------------------------------------------- |
-| [Personalized](ImaginaryCTF/Crypto/Personalized)                                 | [solve.py](ImaginaryCTF/Crypto/Personalized/solve.py)                   | Python   | ImaginaryCTF 07/08/2022. 75 points. RSA. PRNG seed. CRT          |
-| [Relatively Small Arguments](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments) | [solve.py](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments/solve.py) | Python   | ImaginaryCTF 14/07/2022. 75 points. RSA. Wiener's attack         |
-| [Rotating Secret Assembler](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler)   | [solve.py](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler/solve.py)  | Python   | ImaginaryCTF 05/07/2022. 50 points. RSA. Greatest Common Divisor |
+| Crypto                                                                                     | Scripts / Programs                                                              | Language | Purpose                                                                    |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- |
+| [Personalized](ImaginaryCTF/Crypto/Personalized)                                           | [solve.py](ImaginaryCTF/Crypto/Personalized/solve.py)                           | Python   | ImaginaryCTF 07/08/2022. 75 points. RSA. PRNG seed. CRT                    |
+| [Relatively Small Arguments](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments)           | [solve.py](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments/solve.py)         | Python   | ImaginaryCTF 14/07/2022. 75 points. RSA. Wiener's attack                   |
+| [Ron was wrong, Whit is right](ImaginaryCTF/Crypto/Ron%20was%20wrong,%20Whit%20is%20right) | [solve.py](ImaginaryCTF/Crypto/Ron%20was%20wrong,%20Whit%20is%20right/solve.py) | Python   | ImaginaryCTF 28/11/2022. 75 points. RSA. Greatest Common Divisor. Bad PRNG |
+| [Rotating Secret Assembler](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler)             | [solve.py](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler/solve.py)          | Python   | ImaginaryCTF 05/07/2022. 50 points. RSA. Greatest Common Divisor           |
 
 | Pwn                                                                 | Scripts / Programs                                               | Language | Purpose                                                                                              |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------- |
