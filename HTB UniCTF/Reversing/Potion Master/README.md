@@ -1,3 +1,3 @@
-# HackTheBoo CTF 2022. Reversing. Potion Master
+# HTB UniCTF 2022. Reversing. Potion Master
 
-Challenge write-up: https://7rocky.github.io/en/ctf/other/hackthebooctf/potion-master
+Challenge write-up: https://7rocky.github.io/en/ctf/other/htb-unictf/potion-master
