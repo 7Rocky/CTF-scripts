@@ -58,6 +58,24 @@ Hope it is useful! :smile:
 | [Spooky Time](HackTheBoo%20CTF/Pwn/Spooky%20Time) | [solve.py](HackTheBoo%20CTF/Pwn/Spooky%20Time/solve.py) | Python   | 64-bit binary. Format String vulnerability. GOT overwrite |
 
 
+## HTB Cyber Apocalypse 2023
+
+| Crypto                                                                                              | Scripts / Programs                                                                         | Language          | Purpose                                                                     |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------- | --------------------------------------------------------------------------- |
+| [Biased Heritage](HTB%20Cyber%20Apocalypse%202023/Crypto/Biased%20Heritage)                         | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Biased%20Heritage/solve.py)              | Python / SageMath | Schnorr signature. Hidden Number Problem. LLL lattice reduction             |
+| [Colliding Heritage](HTB%20Cyber%20Apocalypse%202023/Crypto/Colliding%20Heritage)                   | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Colliding%20Heritage/solve.py)           | Python            | Schnorr signature. MD5 collision                                            |
+| [Elliptic Labyrinth](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth)                   | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth/solve.py)           | Python            | ECC. Finding curve parameters                                               |
+| [Elliptic Labyrinth Revenge](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth%20Revenge) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth%20Revenge/solve.py) | Python / SageMath | ECC. Finding curve parameters. Coppersmith method on a bivariate polynomial |
+
+| Hardware                                              | Scripts / Programs                                                 | Language | Purpose                                                                 |
+| ----------------------------------------------------- | ------------------------------------------------------------------ | -------- | ----------------------------------------------------------------------- |
+| [HM74](HTB%20Cyber%20Apocalypse%202023/Hardware/HM74) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Hardware/HM74/solve.py) | Python   | Noisy channel. Hamming codes. Statistically find correct message blocks |
+
+| Misc                                                          | Scripts / Programs                                                   | Language | Purpose                           |
+| ------------------------------------------------------------- | -------------------------------------------------------------------- | -------- | --------------------------------- |
+| [Calibrator](HTB%20Cyber%20Apocalypse%202023/Misc/Calibrator) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Misc/Calibrator/solve.py) | Python   | Binary search. Euclidean distance |
+
+
 ## HTB UniCTF
 
 | Crypto                                             | Scripts / Programs                                     | Language          | Purpose                             |
