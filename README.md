@@ -20,12 +20,12 @@ Hope it is useful! :smile:
 | Pwn                                                              | Scripts / Programs                                            | Language | Purpose                                                                                      |
 | ---------------------------------------------------------------- | ------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
 | [fno-stack-protector](BlackHat%20MEA%20CTF/fno-stack-protector/) | [solve.py](BlackHat%20MEA%20CTF/fno-stack-protector/solve.py) | Python   | 64-bit binary. Buffer Overflow. Redirect program execution                                   |
-| [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory/)            | [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)     | Python   | 64-bit binary. Heap exploitation. Unsorted bin attack. Fastbin attack. GOT overwrite         |
+| [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory/)            | [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)     | Python   | 64-bit binary. Heap exploitation. Unsorted Bin attack. Fast Bin attack. GOT overwrite        |
 | [Secret Note](BlackHat%20MEA%20CTF/Secret%20Note/)               | [solve.py](BlackHat%20MEA%20CTF/Secret%20Note/solve.py)       | Python   | 64-bit binary. Buffer Overflow. Format String vulnerability. PIE, Canary, NX and ASLR bypass |
 
-| Rev                                                              | Scripts / Programs                                               | Language | Purpose                            |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | ---------------------------------- |
-| [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/) | [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py) | Python   | z3 solution to a set of conditions |
+| Rev                                                              | Scripts / Programs                                               | Language | Purpose                              |
+| ---------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | ------------------------------------ |
+| [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/) | [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py) | Python   | `z3` solution to a set of conditions |
 
 
 ## CTFlearn
@@ -99,11 +99,11 @@ Hope it is useful! :smile:
 | Pwn                                                 | Scripts / Programs                                     | Language | Purpose                                                           |
 | --------------------------------------------------- | ------------------------------------------------------ | -------- | ----------------------------------------------------------------- |
 | [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc                          |
-| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)             | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)        | Python   | 64-bit binary. Heap exploitation. Use After Free. Fast bin attack |
+| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)             | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)        | Python   | 64-bit binary. Heap exploitation. Use After Free. Fast Bin attack |
 
-| Reversing                                               | Scripts / Programs                                          | Language | Purpose                            |
-| ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ---------------------------------- |
-| [Potion Master](HTB%20UniCTF/Reversing/Potion%20Master) | [solve.py](HTB%20UniCTF/Reversing/Potion%20Master/solve.py) | Python   | z3 solution to a set of conditions |
+| Reversing                                               | Scripts / Programs                                          | Language | Purpose                              |
+| ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ------------------------------------ |
+| [Potion Master](HTB%20UniCTF/Reversing/Potion%20Master) | [solve.py](HTB%20UniCTF/Reversing/Potion%20Master/solve.py) | Python   | `z3` solution to a set of conditions |
 
 | Web                                                         | Scripts / Programs                                         | Language | Purpose                                                      |
 | ----------------------------------------------------------- | ---------------------------------------------------------- | -------- | ------------------------------------------------------------ |
