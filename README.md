@@ -64,6 +64,7 @@ Hope it is useful! :smile:
 | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ----------------- | --------------------------------------------------------------------------- |
 | [Biased Heritage](HTB%20Cyber%20Apocalypse%202023/Crypto/Biased%20Heritage)                         | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Biased%20Heritage/solve.py)              | Python / SageMath | Schnorr signature. Hidden Number Problem. LLL lattice reduction             |
 | [Colliding Heritage](HTB%20Cyber%20Apocalypse%202023/Crypto/Colliding%20Heritage)                   | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Colliding%20Heritage/solve.py)           | Python            | Schnorr signature. MD5 collision                                            |
+| [Converging Visions](HTB%20Cyber%20Apocalypse%202023/Crypto/Converging%20Visions)                   | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Converging%20Visions/solve.py)           | Python / SageMath | ECC. Binary search. Finding curve parameters. Smart's attack. PRNG          |
 | [Elliptic Labyrinth](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth)                   | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth/solve.py)           | Python            | ECC. Finding curve parameters                                               |
 | [Elliptic Labyrinth Revenge](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth%20Revenge) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Crypto/Elliptic%20Labyrinth%20Revenge/solve.py) | Python / SageMath | ECC. Finding curve parameters. Coppersmith method on a bivariate polynomial |
 
@@ -74,6 +75,18 @@ Hope it is useful! :smile:
 | Misc                                                          | Scripts / Programs                                                   | Language | Purpose                           |
 | ------------------------------------------------------------- | -------------------------------------------------------------------- | -------- | --------------------------------- |
 | [Calibrator](HTB%20Cyber%20Apocalypse%202023/Misc/Calibrator) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Misc/Calibrator/solve.py) | Python   | Binary search. Euclidean distance |
+
+| Pwn                                                                    | Scripts / Programs                                                         | Language | Purpose                                                                    |
+| ---------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------- |
+| [Control Room](HTB%20Cyber%20Apocalypse%202023/Pwn/Control%20Room)     | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Control%20Room/solve.py)    | Python   | 64-bit binary. OOB write. GOT overwrite                                    |
+| [Labyrinth](HTB%20Cyber%20Apocalypse%202023/Pwn/Labyrinth)             | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Labyrinth/solve.py)         | Python   | 64-bit binary. Buffer Overflow. Redirecting program execition              |
+| [Math Door](HTB%20Cyber%20Apocalypse%202023/Pwn/Math%20Door)           | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Math%20Door/solve.py)       | Python   | 64-bit binary. Heap exploitation. Heap _feng shui_. Tcache Poisoning. FSOP |
+| [Pandora's Box](HTB%20Cyber%20Apocalypse%202023/Pwn/Pandora%27s%20Box) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Pandora%27s%20Box/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc                                   |
+| [Void](HTB%20Cyber%20Apocalypse%202023/Pwn/Void)                       | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Void/solve.py)              | Python   | 64-bit binary. Buffer Overflow. ret2dlresolve                              |
+
+| Reversing                                                                      | Scripts / Programs                                                               | Language | Purpose                                    |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------- | ------------------------------------------ |
+| [Alien Saboteaur](HTB%20Cyber%20Apocalypse%202023/Reversing/Alien%20Saboteaur) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Reversing/Alien%20Saboteaur/solve.py) | Python   | Translate and reverse encryption algorithm |
 
 
 ## HTB UniCTF
