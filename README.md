@@ -84,10 +84,6 @@ Hope it is useful! :smile:
 | [Pandora's Box](HTB%20Cyber%20Apocalypse%202023/Pwn/Pandora%27s%20Box) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Pandora%27s%20Box/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc                                   |
 | [Void](HTB%20Cyber%20Apocalypse%202023/Pwn/Void)                       | [solve.py](HTB%20Cyber%20Apocalypse%202023/Pwn/Void/solve.py)              | Python   | 64-bit binary. Buffer Overflow. ret2dlresolve                              |
 
-| Reversing                                                                      | Scripts / Programs                                                               | Language | Purpose                                    |
-| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- | -------- | ------------------------------------------ |
-| [Alien Saboteaur](HTB%20Cyber%20Apocalypse%202023/Reversing/Alien%20Saboteaur) | [solve.py](HTB%20Cyber%20Apocalypse%202023/Reversing/Alien%20Saboteaur/solve.py) | Python   | Translate and reverse encryption algorithm |
-
 
 ## HTB UniCTF
 
