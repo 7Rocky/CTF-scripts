@@ -28,6 +28,13 @@ Hope it is useful! :smile:
 | [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/) | [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py) | Python   | `z3` solution to a set of conditions |
 
 
+## corCTF 2023
+
+| Crypto                                    | Scripts / Programs                             | Language | Purpose                    |
+| ----------------------------------------- | ---------------------------------------------- | -------- | -------------------------- |
+| [fizzbuzz101](corCTF%202023/fizzbuzz101/) | [solve.py](corCTF%202023/fizzbuzz101/solve.py) | Python   | RSA decryption. LSB oracle |
+
+
 ## CTFlearn
 
 | Binary                                              | Scripts / Programs                                                                                         | Language         | Purpose                                                           |
