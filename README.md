@@ -13,26 +13,26 @@ Hope it is useful! :smile:
 
 ## BlackHat MEA CTF
 
-| Crypto                                           | Scripts / Programs                                     | Language | Purpose                           |
-| ------------------------------------------------ | ------------------------------------------------------ | -------- | --------------------------------- |
-| [Ursa Minor](BlackHat%20MEA%20CTF/Ursa%20Minor/) | [solve.py](BlackHat%20MEA%20CTF/Ursa%20Minor/solve.py) | Python   | RSA. Binary Search. Smooth primes |
+| Crypto                                          | Scripts / Programs                                     | Language | Purpose                           |
+| ----------------------------------------------- | ------------------------------------------------------ | -------- | --------------------------------- |
+| [Ursa Minor](BlackHat%20MEA%20CTF/Ursa%20Minor) | [solve.py](BlackHat%20MEA%20CTF/Ursa%20Minor/solve.py) | Python   | RSA. Binary Search. Smooth primes |
 
-| Pwn                                                              | Scripts / Programs                                            | Language | Purpose                                                                                      |
-| ---------------------------------------------------------------- | ------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
-| [fno-stack-protector](BlackHat%20MEA%20CTF/fno-stack-protector/) | [solve.py](BlackHat%20MEA%20CTF/fno-stack-protector/solve.py) | Python   | 64-bit binary. Buffer Overflow. Redirect program execution                                   |
-| [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory/)            | [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)     | Python   | 64-bit binary. Heap exploitation. Unsorted Bin attack. Fast Bin attack. GOT overwrite        |
-| [Secret Note](BlackHat%20MEA%20CTF/Secret%20Note/)               | [solve.py](BlackHat%20MEA%20CTF/Secret%20Note/solve.py)       | Python   | 64-bit binary. Buffer Overflow. Format String vulnerability. PIE, Canary, NX and ASLR bypass |
+| Pwn                                                             | Scripts / Programs                                            | Language | Purpose                                                                                      |
+| --------------------------------------------------------------- | ------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------- |
+| [fno-stack-protector](BlackHat%20MEA%20CTF/fno-stack-protector) | [solve.py](BlackHat%20MEA%20CTF/fno-stack-protector/solve.py) | Python   | 64-bit binary. Buffer Overflow. Redirect program execution                                   |
+| [Robot Fatory](BlackHat%20MEA%20CTF/Robot%20Factory)            | [solve.py](BlackHat%20MEA%20CTF/Robot%20Factory/solve.py)     | Python   | 64-bit binary. Heap exploitation. Unsorted Bin attack. Fast Bin attack. GOT overwrite        |
+| [Secret Note](BlackHat%20MEA%20CTF/Secret%20Note)               | [solve.py](BlackHat%20MEA%20CTF/Secret%20Note/solve.py)       | Python   | 64-bit binary. Buffer Overflow. Format String vulnerability. PIE, Canary, NX and ASLR bypass |
 
-| Rev                                                              | Scripts / Programs                                               | Language | Purpose                              |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | ------------------------------------ |
-| [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/) | [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py) | Python   | `z3` solution to a set of conditions |
+| Rev                                                             | Scripts / Programs                                               | Language | Purpose                              |
+| --------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | ------------------------------------ |
+| [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS) | [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py) | Python   | `z3` solution to a set of conditions |
 
 
 ## corCTF 2023
 
-| Crypto                                    | Scripts / Programs                             | Language | Purpose                    |
-| ----------------------------------------- | ---------------------------------------------- | -------- | -------------------------- |
-| [fizzbuzz101](corCTF%202023/fizzbuzz101/) | [solve.py](corCTF%202023/fizzbuzz101/solve.py) | Python   | RSA decryption. LSB oracle |
+| Crypto                            | Scripts / Programs                      | Language | Purpose                                 |
+| --------------------------------- | --------------------------------------- | -------- | --------------------------------------- |
+| [fizzbuzz101](corCTF/fizzbuzz101) | [solve.py](corCTF/fizzbuzz101/solve.py) | Python   | corCTF 2023. RSA decryption. LSB oracle |
 
 
 ## CTFlearn
@@ -158,6 +158,10 @@ Hope it is useful! :smile:
 
 
 ## Securinets
+
+| Crypto                                                      | Scripts / Programs                                       | Language | Purpose                                                                                            |
+| ----------------------------------------------------------- | -------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------- |
+| [Farfour Post Quantom](Securinets/Farfour%20Post%20Quantom) | [solve.py](Securinets/Farfour%20Post%20Quantom/solve.py) | Python   | Securinets Quals 2023. Matrix operations. Modular arithmetic. Shuffling. Solve system of equations |
 
 | Pwn                               | Scripts / Programs                        | Language | Purpose                                                                                         |
 | --------------------------------- | ----------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
