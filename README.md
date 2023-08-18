@@ -162,6 +162,7 @@ Hope it is useful! :smile:
 | Crypto                                                      | Scripts / Programs                                       | Language | Purpose                                                                                            |
 | ----------------------------------------------------------- | -------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------- |
 | [Farfour Post Quantom](Securinets/Farfour%20Post%20Quantom) | [solve.py](Securinets/Farfour%20Post%20Quantom/solve.py) | Python   | Securinets Quals 2023. Matrix operations. Modular arithmetic. Shuffling. Solve system of equations |
+| [PolyLCG](Securinets/PolyLCG)                               | [solve.py](Securinets/PolyLCG/solve.py)                  | Python   | Securinets Quals 2023. Modular polynomials                                                         |
 
 | Pwn                               | Scripts / Programs                        | Language | Purpose                                                                                         |
 | --------------------------------- | ----------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
