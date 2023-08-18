@@ -47,6 +47,14 @@ Hope it is useful! :smile:
 | [Simple Programming](CTFlearn/Binary/Simple%20Programming) | [solve.rb](CTFlearn/Binary/Simple%20Programming/solve.rb)<br>[solve2.rb](CTFlearn/Binary/Simple%20Programming/solve2.rb) | Ruby<br>Ruby | Iterate a file and count lines that match a condition |
 
 
+## CTFZone
+
+| Crypto                                                           | Scripts / Programs                                          | Language | Purpose                                                                                |
+| ---------------------------------------------------------------- | ----------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------- |
+| [Come on feel the nonce](CTFZone/Come%20on%20feel%20the%20nonce) | [solve.py](CTFZone/Come%20on%20feel%20the%20nonce/solve.py) | Python   | CTFZone Quals 2023. ECDSA. Biased nonces. Hidden Number Problem. LLL lattice reduction |
+| [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python   | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
+
+
 ## HackTheBoo CTF
 
 | Crypto                                   | Scripts / Programs                                  | Language | Purpose                              |
