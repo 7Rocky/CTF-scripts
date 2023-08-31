@@ -55,9 +55,9 @@ def define_tree(queries):
                 edges.add((node, q['token']))
 
     GG = generate_graph(edges)
-    iso = tree_isomorphism(GG, G)
+    isomorphism = tree_isomorphism(GG, G)
 
-    for enc, node in iso:
+    for enc, node in isomorphism:
         mappings[enc] = node
 
 

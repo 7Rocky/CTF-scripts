@@ -17,7 +17,6 @@ def get_process():
 io = get_process()
 
 NODES_SIZE = 130
-
 round_prog = io.progress('Round')
 
 for r in range(10):
@@ -39,8 +38,7 @@ for r in range(10):
         io.recvuntil(b'[*] Query Response: ')
         res = bytes.fromhex(io.recvline().decode())
 
-        keys = [token[16:]] + [res[i+16:i+32]
-                               for i in range(0, len(res) // 2, 32)]
+        keys = [token] + [res[i:i+32] for i in range(0, len(res) // 2, 32)]
 
         data[i] = list(map(lambda b: b.hex(), keys))
 
