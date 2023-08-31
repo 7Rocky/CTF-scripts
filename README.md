@@ -194,5 +194,5 @@ Hope it is useful! :smile:
 | ---------------------------------------------- | ------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------- |
 | [cryptoGRAPHy 1](Sekai%20CTF/cryptoGRAPHy%201) | [solve.py](Sekai%20CTF/cryptoGRAPHy%201/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Key leakage. Decryption                        |
 | [cryptoGRAPHy 2](Sekai%20CTF/cryptoGRAPHy%202) | [solve.py](Sekai%20CTF/cryptoGRAPHy%202/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Single-Destination Shortest Path. Node degrees |
-| [cryptoGRAPHy 3](Sekai%20CTF/cryptoGRAPHy%203) | [solve.py](Sekai%20CTF/cryptoGRAPHy%203/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Tree isomorphisms                              |
+| [cryptoGRAPHy 3](Sekai%20CTF/cryptoGRAPHy%203) | [solve.py](Sekai%20CTF/cryptoGRAPHy%203/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Query recovery. Tree isomorphisms              |
 | [Noisy CRC](Sekai%20CTF/Noisy%20CRC)           | [solve.py](Sekai%20CTF/Noisy%20CRC/solve.py)      | Python / SageMath | Sekai CTF 2023. CRC. Chinese Remainder Theorem. Brute force                             |
