@@ -73,6 +73,14 @@ Hope it is useful! :smile:
 | [Spooky Time](HackTheBoo%20CTF/Pwn/Spooky%20Time) | [solve.py](HackTheBoo%20CTF/Pwn/Spooky%20Time/solve.py) | Python   | 64-bit binary. Format String vulnerability. GOT overwrite |
 
 
+## HITCON CTF
+
+| Crypto                                   | Scripts / Programs                                   | Language | Purpose                                                                                                            |
+| ---------------------------------------- | ---------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
+| [Share](HITCON%20CTF/Careless%20Padding) | [solve.py](HITCON%20CTF/Careless%20Padding/solve.py) | Python   | HITCON CTF Quals 2023. Padding Oracle Attack. Custom padding. Guessing                                             |
+| [Share](HITCON%20CTF/Share)              | [solve.py](HITCON%20CTF/Share/solve.py)              | Python   | HITCON CTF Quals 2023. Shamir Secret Sharing. Lagrange interpolation. Chinese Remainder Theorem. `multiprocessing` |
+
+
 ## HTB Cyber Apocalypse 2023
 
 | Crypto                                                                                              | Scripts / Programs                                                                         | Language          | Purpose                                                                     |
