@@ -49,10 +49,10 @@ Hope it is useful! :smile:
 
 ## CTFZone
 
-| Crypto                                                           | Scripts / Programs                                          | Language | Purpose                                                                                |
-| ---------------------------------------------------------------- | ----------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------- |
-| [Come on feel the nonce](CTFZone/Come%20on%20feel%20the%20nonce) | [solve.py](CTFZone/Come%20on%20feel%20the%20nonce/solve.py) | Python   | CTFZone Quals 2023. ECDSA. Biased nonces. Hidden Number Problem. LLL lattice reduction |
-| [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python   | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
+| Crypto                                                           | Scripts / Programs                                          | Language          | Purpose                                                                                |
+| ---------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------- |
+| [Come on feel the nonce](CTFZone/Come%20on%20feel%20the%20nonce) | [solve.py](CTFZone/Come%20on%20feel%20the%20nonce/solve.py) | Python / SageMath | CTFZone Quals 2023. ECDSA. Biased nonces. Hidden Number Problem. LLL lattice reduction |
+| [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python            | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
 
 
 ## HackTheBoo CTF
@@ -75,10 +75,10 @@ Hope it is useful! :smile:
 
 ## HITCON CTF
 
-| Crypto                                   | Scripts / Programs                                   | Language | Purpose                                                                                                            |
-| ---------------------------------------- | ---------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
-| [Share](HITCON%20CTF/Careless%20Padding) | [solve.py](HITCON%20CTF/Careless%20Padding/solve.py) | Python   | HITCON CTF Quals 2023. Padding Oracle Attack. Custom padding. Guessing                                             |
-| [Share](HITCON%20CTF/Share)              | [solve.py](HITCON%20CTF/Share/solve.py)              | Python   | HITCON CTF Quals 2023. Shamir Secret Sharing. Lagrange interpolation. Chinese Remainder Theorem. `multiprocessing` |
+| Crypto                                              | Scripts / Programs                                   | Language          | Purpose                                                                                                            |
+| --------------------------------------------------- | ---------------------------------------------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------ |
+| [Careless Padding](HITCON%20CTF/Careless%20Padding) | [solve.py](HITCON%20CTF/Careless%20Padding/solve.py) | Python            | HITCON CTF Quals 2023. Padding Oracle Attack. Custom padding. Guessing                                             |
+| [Share](HITCON%20CTF/Share)                         | [solve.py](HITCON%20CTF/Share/solve.py)              | Python / SageMath | HITCON CTF Quals 2023. Shamir Secret Sharing. Lagrange interpolation. Chinese Remainder Theorem. `multiprocessing` |
 
 
 ## HTB Cyber Apocalypse 2023
@@ -131,15 +131,15 @@ Hope it is useful! :smile:
 
 ## ImaginaryCTF
 
-| Crypto                                                                                     | Scripts / Programs                                                              | Language | Purpose                                                                                |
-| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------- |
-| [Easy DSA: Elated once](ImaginaryCTF/Crypto/Easy%20DSA:%20Elated%20once)                   | [solve.py](ImaginaryCTF/Crypto/Easy%20DSA:%20Elated%20once/solve.py)            | Python   | ImaginaryCTF 24/01/2023. 100 points. DSA. LCG. Modular system of equations             |
-| [Easy DSA: Lovely Little Lane](ImaginaryCTF/Crypto/Easy%20DSA:%20Lovely%20Little%20Lane)   | [solve.py](ImaginaryCTF/Crypto/Easy%20DSA:%20Lovely%20Little%20Lane/solve.py)   | Python   | ImaginaryCTF 21/01/2023. 125 points. DSA. Hidden Number Problem. LLL lattice reduction |
-| [Personalized](ImaginaryCTF/Crypto/Personalized)                                           | [solve.py](ImaginaryCTF/Crypto/Personalized/solve.py)                           | Python   | ImaginaryCTF 07/08/2022. 75 points. RSA. PRNG seed. CRT                                |
-| [Rather Secure Attachment](ImaginaryCTF/Crypto/Rather%20Secure%20Attachment)               | [solve.py](ImaginaryCTF/Crypto/Rather%20Secure%20Attachment/solve.py)           | Python   | ImaginaryCTF 08/12/2022. 100 points. RSA. Cipolla's Algorithm                          |
-| [Relatively Small Arguments](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments)           | [solve.py](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments/solve.py)         | Python   | ImaginaryCTF 14/07/2022. 75 points. RSA. Wiener's attack                               |
-| [Ron was wrong, Whit is right](ImaginaryCTF/Crypto/Ron%20was%20wrong,%20Whit%20is%20right) | [solve.py](ImaginaryCTF/Crypto/Ron%20was%20wrong,%20Whit%20is%20right/solve.py) | Python   | ImaginaryCTF 28/11/2022. 75 points. RSA. Greatest Common Divisor. Bad PRNG             |
-| [Rotating Secret Assembler](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler)             | [solve.py](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler/solve.py)          | Python   | ImaginaryCTF 05/07/2022. 50 points. RSA. Greatest Common Divisor                       |
+| Crypto                                                                                     | Scripts / Programs                                                              | Language          | Purpose                                                                                |
+| ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------- |
+| [Easy DSA: Elated once](ImaginaryCTF/Crypto/Easy%20DSA:%20Elated%20once)                   | [solve.py](ImaginaryCTF/Crypto/Easy%20DSA:%20Elated%20once/solve.py)            | Python            | ImaginaryCTF 24/01/2023. 100 points. DSA. LCG. Modular system of equations             |
+| [Easy DSA: Lovely Little Lane](ImaginaryCTF/Crypto/Easy%20DSA:%20Lovely%20Little%20Lane)   | [solve.py](ImaginaryCTF/Crypto/Easy%20DSA:%20Lovely%20Little%20Lane/solve.py)   | Python / SageMath | ImaginaryCTF 21/01/2023. 125 points. DSA. Hidden Number Problem. LLL lattice reduction |
+| [Personalized](ImaginaryCTF/Crypto/Personalized)                                           | [solve.py](ImaginaryCTF/Crypto/Personalized/solve.py)                           | Python / SageMath | ImaginaryCTF 07/08/2022. 75 points. RSA. PRNG seed. CRT                                |
+| [Rather Secure Attachment](ImaginaryCTF/Crypto/Rather%20Secure%20Attachment)               | [solve.py](ImaginaryCTF/Crypto/Rather%20Secure%20Attachment/solve.py)           | Python            | ImaginaryCTF 08/12/2022. 100 points. RSA. Cipolla's Algorithm                          |
+| [Relatively Small Arguments](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments)           | [solve.py](ImaginaryCTF/Crypto/Relatively%20Small%20Arguments/solve.py)         | Python            | ImaginaryCTF 14/07/2022. 75 points. RSA. Wiener's attack                               |
+| [Ron was wrong, Whit is right](ImaginaryCTF/Crypto/Ron%20was%20wrong,%20Whit%20is%20right) | [solve.py](ImaginaryCTF/Crypto/Ron%20was%20wrong,%20Whit%20is%20right/solve.py) | Python            | ImaginaryCTF 28/11/2022. 75 points. RSA. Greatest Common Divisor. Bad PRNG             |
+| [Rotating Secret Assembler](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler)             | [solve.py](ImaginaryCTF/Crypto/Rotating%20Secret%20Assembler/solve.py)          | Python            | ImaginaryCTF 05/07/2022. 50 points. RSA. Greatest Common Divisor                       |
 
 | Pwn                                                                 | Scripts / Programs                                               | Language | Purpose                                                                                              |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------- |
@@ -173,12 +173,24 @@ Hope it is useful! :smile:
 | [Sum-O-Primes](picoCTF/Cryptography/Sum-O-Primes) | [solve.py](picoCTF/Cryptography/Sum-O-Primes/solve.py) | Python   | picoCTF 2022. 400 points. RSA decryption |
 
 
+## SECCON CTF
+
+| Crypto                                | Scripts / Programs                           | Language            | Purpose                                                            |
+| ------------------------------------- | -------------------------------------------- | ------------------- | ------------------------------------------------------------------ |
+| [plai_n_rsa](SECCON%20CTF/plai_n_rsa) | [solve.py](SECCON%20CTF/plai_n_rsa/solve.py) | Python              | SECCON CTF Quals 2023. RSA. Euler totient function                 |
+| [RSA 4.0](SECCON%20CTF/RSA%204.0)     | [solve.py](SECCON%20CTF/RSA%204.0/solve.py)  | Python / SageMath   | SECCON CTF Quals 2023. RSA with quaternions. Quaternion power. GCD |
+
+| Pwn                               | Scripts / Programs                         | Language            | Purpose                                                        |
+| --------------------------------- | ------------------------------------------ | ------------------- | -------------------------------------------------------------- |
+| [rop-2.35](SECCON%20CTF/rop-2.35) | [solve.py](SECCON%20CTF/rop-2.35/solve.py) | Python              | SECCON CTF Quals 2023. Buffer Overflow. Ret2Libc. `gets` reuse |
+
+
 ## Securinets
 
-| Crypto                                                      | Scripts / Programs                                       | Language | Purpose                                                                                            |
-| ----------------------------------------------------------- | -------------------------------------------------------- | -------- | -------------------------------------------------------------------------------------------------- |
-| [Farfour Post Quantom](Securinets/Farfour%20Post%20Quantom) | [solve.py](Securinets/Farfour%20Post%20Quantom/solve.py) | Python   | Securinets Quals 2023. Matrix operations. Modular arithmetic. Shuffling. Solve system of equations |
-| [PolyLCG](Securinets/PolyLCG)                               | [solve.py](Securinets/PolyLCG/solve.py)                  | Python   | Securinets Quals 2023. Modular polynomials                                                         |
+| Crypto                                                      | Scripts / Programs                                       | Language          | Purpose                                                                                            |
+| ----------------------------------------------------------- | -------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------- |
+| [Farfour Post Quantom](Securinets/Farfour%20Post%20Quantom) | [solve.py](Securinets/Farfour%20Post%20Quantom/solve.py) | Python / SageMath | Securinets Quals 2023. Matrix operations. Modular arithmetic. Shuffling. Solve system of equations |
+| [PolyLCG](Securinets/PolyLCG)                               | [solve.py](Securinets/PolyLCG/solve.py)                  | Python            | Securinets Quals 2023. Modular polynomials                                                         |
 
 | Pwn                               | Scripts / Programs                        | Language | Purpose                                                                                         |
 | --------------------------------- | ----------------------------------------- | -------- | ----------------------------------------------------------------------------------------------- |
