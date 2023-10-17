@@ -178,11 +178,6 @@ Hope it is useful! :smile:
 | Crypto                                | Scripts / Programs                           | Language            | Purpose                                                            |
 | ------------------------------------- | -------------------------------------------- | ------------------- | ------------------------------------------------------------------ |
 | [plai_n_rsa](SECCON%20CTF/plai_n_rsa) | [solve.py](SECCON%20CTF/plai_n_rsa/solve.py) | Python              | SECCON CTF Quals 2023. RSA. Euler totient function                 |
-| [RSA 4.0](SECCON%20CTF/RSA%204.0)     | [solve.py](SECCON%20CTF/RSA%204.0/solve.py)  | Python / SageMath   | SECCON CTF Quals 2023. RSA with quaternions. Quaternion power. GCD |
-
-| Pwn                               | Scripts / Programs                         | Language            | Purpose                                                        |
-| --------------------------------- | ------------------------------------------ | ------------------- | -------------------------------------------------------------- |
-| [rop-2.35](SECCON%20CTF/rop-2.35) | [solve.py](SECCON%20CTF/rop-2.35/solve.py) | Python              | SECCON CTF Quals 2023. Buffer Overflow. Ret2Libc. `gets` reuse |
 
 
 ## Securinets
@@ -216,3 +211,11 @@ Hope it is useful! :smile:
 | [cryptoGRAPHy 2](Sekai%20CTF/cryptoGRAPHy%202) | [solve.py](Sekai%20CTF/cryptoGRAPHy%202/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Single-Destination Shortest Path. Node degrees |
 | [cryptoGRAPHy 3](Sekai%20CTF/cryptoGRAPHy%203) | [solve.py](Sekai%20CTF/cryptoGRAPHy%203/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Query recovery. Tree isomorphisms              |
 | [Noisy CRC](Sekai%20CTF/Noisy%20CRC)           | [solve.py](Sekai%20CTF/Noisy%20CRC/solve.py)      | Python / SageMath | Sekai CTF 2023. CRC. Chinese Remainder Theorem. Brute force                             |
+
+
+## TeamItaly CTF
+
+| Crypto                                                     | Scripts / Programs                                        | Language | Purpose                                                                  |
+| ---------------------------------------------------------- | --------------------------------------------------------- | -------- | ------------------------------------------------------------------------ |
+| [Big RSA](TeamItaly%20CTF/Big%20RSA)                       | [solve.py](TeamItaly%20CTF/Big%20RSA/solve.py)            | Python   | TeamItaly CTF 2023. RSA. Factorial. Modular arithmetic. Integer division |
+| [Scrambled Pizzeria](TeamItaly%20CTF/Scrambled%20Pizzeria) | [solve.py](TeamItaly%20CTF/Scrambled%20Pizzeria/solve.py) | Python   | TeamItaly CTF 2023. XOR. Permutations and substitutions                  |
