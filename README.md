@@ -30,9 +30,11 @@ Hope it is useful! :smile:
 
 ## corCTF 2023
 
-| Crypto                            | Scripts / Programs                      | Language | Purpose                                 |
-| --------------------------------- | --------------------------------------- | -------- | --------------------------------------- |
-| [fizzbuzz101](corCTF/fizzbuzz101) | [solve.py](corCTF/fizzbuzz101/solve.py) | Python   | corCTF 2023. RSA decryption. LSB oracle |
+| Crypto                            | Scripts / Programs                      | Language          | Purpose                                       |
+| --------------------------------- | --------------------------------------- | ----------------- | --------------------------------------------- |
+| [fizzbuzz101](corCTF/fizzbuzz101) | [solve.py](corCTF/fizzbuzz101/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle       |
+| [fizzbuzz102](corCTF/fizzbuzz102) | [solve.py](corCTF/fizzbuzz102/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle. LCG  |
+| [qcg-k](corCTF/qcg-k)             | [solve.py](corCTF/qcg-k/solve.py)       | Python / SageMath | corCTF 2023. DSA. Recurrence relation. Nonces |
 
 
 ## CTFlearn
@@ -53,6 +55,14 @@ Hope it is useful! :smile:
 | ---------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------- |
 | [Come on feel the nonce](CTFZone/Come%20on%20feel%20the%20nonce) | [solve.py](CTFZone/Come%20on%20feel%20the%20nonce/solve.py) | Python / SageMath | CTFZone Quals 2023. ECDSA. Biased nonces. Hidden Number Problem. LLL lattice reduction |
 | [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python            | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
+
+
+## Hack.lu CTF
+
+| Crypto                                     | Scripts / Programs                            | Language          | Purpose                                                                                                        |
+| ------------------------------------------ | --------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| [Spooky Safebox](CTFZone/Spooky%20Safebox) | [solve.py](CTFZone/Spooky%20Safebox/solve.py) | Python / SageMath | Hack.lu CTF 2023. RCC. ECDSA. Public key recovery. Biased nonces. Hidden Number Problem. LLL lattice reduction |
+
 
 
 ## HackTheBoo CTF
