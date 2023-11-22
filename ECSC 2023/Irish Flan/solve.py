@@ -71,14 +71,14 @@ polys = [
 
 M, _ = Sequence(polys).coefficient_matrix(sparse=False)
 
-x, y, _ = M.right_kernel_matrix().rows()[0]
-delta = x * delta_x + y * delta_y
+x_0, y_0, _ = M.right_kernel_matrix().rows()[0]
+delta_0 = x_0 * delta_x + y_0 * delta_y
 
-kappa = delta ** -1 * beta * delta
+kappa = delta_0 ** -1 * beta * delta_0
 kk = kappa ** -1 * mu * kappa ** -1
 
-assert epsilon == delta ** -1 * alpha * delta
-assert kappa == delta ** -1 * beta * delta
+assert epsilon == delta_0 ** -1 * alpha * delta_0
+assert kappa == delta_0 ** -1 * beta * delta_0
 assert mu == kappa * kk * kappa
 
 R = Z(n)
