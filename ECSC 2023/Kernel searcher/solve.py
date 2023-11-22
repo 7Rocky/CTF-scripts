@@ -42,8 +42,8 @@ io.sendlineafter(b'Send the point you wish to evaluate: ',
                  json.dumps({'x0': '0', 'x1': '0'}).encode())
 data = json.loads(io.recvline().decode())
 x0, x1 = int(data.get('x0'), 16), int(data.get('x1'), 16)
-x = F([x0, x1])
-C = (- x ** 3 - x) / (x ** 2)
+X = F([x0, x1])
+C = (- X ** 3 - X) / (X ** 2)
 
 EE = EllipticCurve(F, [0, C, 0, 1, 0])
 
