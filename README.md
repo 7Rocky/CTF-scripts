@@ -57,12 +57,28 @@ Hope it is useful! :smile:
 | [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python            | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
 
 
+## ECSC 2023
+
+| Crypto                                                   | Scripts / Programs                                        | Language          | Purpose                                                   |
+| -------------------------------------------------------- | --------------------------------------------------------- | ----------------- | --------------------------------------------------------- |
+| [Blind](ECSC%202023/Blind)                               | [solve.sage](ECSC%202023/Blind/solve.sage)                | SageMath          | ECDSA. Signature verification. XOR                        |
+| [Hide and seek](ECSC%202023/Hide%20and%20seek)           | [solve.py](ECSC%202023/Hide%20and%20seek/solve.py)        | Python / SageMath | ECC. Point arithmetic. Discrete logarithm. Pohlig-Hellman |
+| [Irish flan](ECSC%202023/Irish%20flan)                   | [solve.py](ECSC%202023/Irish%20flan/solve.py)             | Python / SageMath | Quaternions. Matrix equations. Kernel                     |
+| [Kernel searcher](ECSC%202023/Kernel%20searcher)         | [solve.py](ECSC%202023/Kernel%20searcher/solve.py)        | Python / SageMath | Isogeny. Finding curve parameters. Discrete logarithm     |
+| [not crypto](ECSC%202023/not%20crypto)                   | [solve.py](ECSC%202023/not%20crypto/solve.py)             | Python            | ROT13. Base64 encoding. ASCII bytes                       |
+| [Put a ring on it](ECSC%202023/Put%20a%20ring%20on%20it) | [solve.py](ECSC%202023/Put%20a%20ring%20on%20it/solve.py) | Python            | Ring signature. Oracle                                    |
+| [RRSSAA](ECSC%202023/RRSSAA)                             | [solve.py](ECSC%202023/RRSSAA/solve.py)                   | Python            | Multi-prime RSA. PRNG seed. RSA-CRT decryption            |
+| [Tough decisions](ECSC%202023/Tough%20decisions)         | [solve.py](ECSC%202023/Tough%20decisions/solve.py)        | Python / SageMath | Learning With Errors. Modular arithmetic                  |
+| [Twist and shout](ECSC%202023/Twist%20and%20shout)       | [solve.py](ECSC%202023/Twist%20and%20shout/solve.py)      | Python / SageMath | ECC. Invalid Curve Attack. Quadratic Twist                |
+| [WOTS up](ECSC%202023/WOTS%20up)                         | [solve.py](ECSC%202023/WOTS%20up/solve.py)                | Python            | Winternitz One-Time Signature. Hash functions. Induction  |
+| [WOTS up 2](ECSC%202023/WOTS%20up%202)                   | [solve.py](ECSC%202023/WOTS%20up%202/solve.py)            | Python            | Winternitz One-Time Signature. Hash functions             |
+
+
 ## Hack.lu CTF
 
 | Crypto                                     | Scripts / Programs                            | Language          | Purpose                                                                                                        |
 | ------------------------------------------ | --------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
 | [Spooky Safebox](CTFZone/Spooky%20Safebox) | [solve.py](CTFZone/Spooky%20Safebox/solve.py) | Python / SageMath | Hack.lu CTF 2023. RCC. ECDSA. Public key recovery. Biased nonces. Hidden Number Problem. LLL lattice reduction |
-
 
 
 ## HackTheBoo CTF
