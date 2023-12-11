@@ -136,23 +136,25 @@ Hope it is useful! :smile:
 
 ## HTB UniCTF
 
-| Crypto                                             | Scripts / Programs                                     | Language          | Purpose                             |
-| -------------------------------------------------- | ------------------------------------------------------ | ----------------- | ----------------------------------- |
-| [AESWCM](HTB%20UniCTF/Crypto/AESWCM)               | [solve.py](HTB%20UniCTF/Crypto/AESWCM/solve.py)        | Python            | Custom encryption using AES and XOR |
-| [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith) | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py) | Python / SageMath | RSA. Known bits. Coppersmith attack |
+| Crypto                                               | Scripts / Programs                                           | Language          | Purpose                                                                                    |
+| ---------------------------------------------------- | ------------------------------------------------------------ | ----------------- | ------------------------------------------------------------------------------------------ |
+| [AESWCM](HTB%20UniCTF/Crypto/AESWCM)                 | [solve.py](HTB%20UniCTF/Crypto/AESWCM/solve.py)              | Python            | HTB UniCTF 2022. Custom encryption using AES and XOR                                       |
+| [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith)   | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py)       | Python / SageMath | HTB UniCTF 2022. RSA. Known bits. Coppersmith attack                                       |
+| [Mayday Mayday](HTB%20UniCTF/Crypto/Mayday%20Mayday) | [solve.py](HTB%20UniCTF/Crypto/Mayday%20Mayday/solve.py)     | Python / SageMath | HTB UniCTF 2023. RSA-CRT. Modular arithmetic. Coppersmith method                           |
+| [Zombie Rolled](HTB%20UniCTF/Crypto/Zombie%20Rolled) | [solve.sage](HTB%20UniCTF/Crypto/Zombie%20Rolled/solve.sage) | SageMath          | HTB UniCTF 2023. Fractions. GCD. RSA signature. Coppersmith method on bivariate polynomial |
 
-| Pwn                                                 | Scripts / Programs                                     | Language | Purpose                                                           |
-| --------------------------------------------------- | ------------------------------------------------------ | -------- | ----------------------------------------------------------------- |
-| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py) | Python   | 64-bit binary. Buffer Overflow. Ret2Libc                          |
-| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)             | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)        | Python   | 64-bit binary. Heap exploitation. Use After Free. Fast Bin attack |
+| Pwn                                                 | Scripts / Programs                                     | Language | Purpose                                                                            |
+| --------------------------------------------------- | ------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------- |
+| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py) | Python   | HTB UniCTF 2022. 64-bit binary. Buffer Overflow. Ret2Libc                          |
+| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)             | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)        | Python   | HTB UniCTF 2022. 64-bit binary. Heap exploitation. Use After Free. Fast Bin attack |
 
-| Reversing                                               | Scripts / Programs                                          | Language | Purpose                              |
-| ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ------------------------------------ |
-| [Potion Master](HTB%20UniCTF/Reversing/Potion%20Master) | [solve.py](HTB%20UniCTF/Reversing/Potion%20Master/solve.py) | Python   | `z3` solution to a set of conditions |
+| Reversing                                               | Scripts / Programs                                          | Language | Purpose                                               |
+| ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ----------------------------------------------------- |
+| [Potion Master](HTB%20UniCTF/Reversing/Potion%20Master) | [solve.py](HTB%20UniCTF/Reversing/Potion%20Master/solve.py) | Python   | HTB UniCTF 2022. `z3` solution to a set of conditions |
 
-| Web                                                         | Scripts / Programs                                         | Language | Purpose                                                      |
-| ----------------------------------------------------------- | ---------------------------------------------------------- | -------- | ------------------------------------------------------------ |
-| [BatchCraft Potions](HTB%20UniCTF/Web/BatchCraft%20Potions) | [solve.py](HTB%20UniCTF/Web/BatchCraft%20Potions/solve.py) | Python   | GraphQL batching attack. Send XSS and DOM Clobbering payload |
+| Web                                                         | Scripts / Programs                                         | Language | Purpose                                                                       |
+| ----------------------------------------------------------- | ---------------------------------------------------------- | -------- | ----------------------------------------------------------------------------- |
+| [BatchCraft Potions](HTB%20UniCTF/Web/BatchCraft%20Potions) | [solve.py](HTB%20UniCTF/Web/BatchCraft%20Potions/solve.py) | Python   | HTB UniCTF 2022. GraphQL batching attack. Send XSS and DOM Clobbering payload |
 
 
 ## ImaginaryCTF
