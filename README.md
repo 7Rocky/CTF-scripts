@@ -141,12 +141,14 @@ Hope it is useful! :smile:
 | [AESWCM](HTB%20UniCTF/Crypto/AESWCM)                 | [solve.py](HTB%20UniCTF/Crypto/AESWCM/solve.py)              | Python            | HTB UniCTF 2022. Custom encryption using AES and XOR                                       |
 | [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith)   | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py)       | Python / SageMath | HTB UniCTF 2022. RSA. Known bits. Coppersmith attack                                       |
 | [Mayday Mayday](HTB%20UniCTF/Crypto/Mayday%20Mayday) | [solve.py](HTB%20UniCTF/Crypto/Mayday%20Mayday/solve.py)     | Python / SageMath | HTB UniCTF 2023. RSA-CRT. Modular arithmetic. Coppersmith method                           |
+| [MSS Revenge](HTB%20UniCTF/Crypto/MSS%20Revenge)     | [solve.py](HTB%20UniCTF/Crypto/MSS%20Revenge/solve.py)       | Python            | HTB UniCTF 2023. Shamir Secret Sharing. Modular arithmetic. Chinese Remainder Theorem      |
 | [Zombie Rolled](HTB%20UniCTF/Crypto/Zombie%20Rolled) | [solve.sage](HTB%20UniCTF/Crypto/Zombie%20Rolled/solve.sage) | SageMath          | HTB UniCTF 2023. Fractions. GCD. RSA signature. Coppersmith method on bivariate polynomial |
 
-| Pwn                                                 | Scripts / Programs                                     | Language | Purpose                                                                            |
-| --------------------------------------------------- | ------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------- |
-| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls) | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py) | Python   | HTB UniCTF 2022. 64-bit binary. Buffer Overflow. Ret2Libc                          |
-| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)             | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)        | Python   | HTB UniCTF 2022. 64-bit binary. Heap exploitation. Use After Free. Fast Bin attack |
+| Pwn                                                           | Scripts / Programs                                           | Language | Purpose                                                                            |
+| ------------------------------------------------------------- | ------------------------------------------------------------ | -------- | ---------------------------------------------------------------------------------- |
+| [Great Old Talisman](HTB%20UniCTF/Pwn/Great%20Old%20Talisman) | [solve.py](HTB%20UniCTF/Pwn/Great%20Old%20Talisman/solve.py) | Python   | HTB UniCTF 2023. 64-bit binary. OOB write. Partial GOT overwrite                   |
+| [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls)           | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py)       | Python   | HTB UniCTF 2022. 64-bit binary. Buffer Overflow. Ret2Libc                          |
+| [Spellbook](HTB%20UniCTF/Pwn/Spellbook)                       | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)              | Python   | HTB UniCTF 2022. 64-bit binary. Heap exploitation. Use After Free. Fast Bin attack |
 
 | Reversing                                               | Scripts / Programs                                          | Language | Purpose                                               |
 | ------------------------------------------------------- | ----------------------------------------------------------- | -------- | ----------------------------------------------------- |
