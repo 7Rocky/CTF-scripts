@@ -57,6 +57,19 @@ Hope it is useful! :smile:
 | [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python            | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
 
 
+## DiceCTF
+
+| Crypto                           | Scripts / Programs                      | Language          | Purpose                                                            |
+| -------------------------------- | --------------------------------------- | ----------------- | ------------------------------------------------------------------ |
+| [rps-casino](DiceCTF/rps-casino) | [solve.py](DiceCTF/rps-casino/solve.py) | Python            | DiceCTF 2024 Quals. LFSR. Modular arithmetic. `z3`                 |
+| [winter](DiceCTF/winter)         | [solve.py](DiceCTF/winter/solve.py)     | Python            | DiceCTF 2024 Quals. Winternitz One-Time Signature                  |
+| [yaonet](DiceCTF/yaonet)         | [solve.py](DiceCTF/yaonet/solve.py)     | Python / SageMath | DiceCTF 2024 Quals. ECC. Baby-step, giant-step. Meet-in-the-middle |
+
+| Pwn                            | Scripts / Programs                     | Language  | Purpose                                                                                       |
+| ------------------------------ | -------------------------------------- | --------- | --------------------------------------------------------------------------------------------- |
+| [baby-talk](DiceCTF/baby-talk) | [solve.py](DiceCTF/baby-talk/solve.py) | Python    | DiceCTF 2024 Quals. Heap exploitation. Null-byte poison. Overlapping chunks. Tcache poisoning |
+
+
 ## ECSC 2023
 
 | Crypto                                                   | Scripts / Programs                                        | Language          | Purpose                                                   |
@@ -141,7 +154,7 @@ Hope it is useful! :smile:
 | [AESWCM](HTB%20UniCTF/Crypto/AESWCM)                 | [solve.py](HTB%20UniCTF/Crypto/AESWCM/solve.py)              | Python            | HTB UniCTF 2022. Custom encryption using AES and XOR                                       |
 | [Bank-er-smith](HTB%20UniCTF/Crypto/Bank-er-smith)   | [solve.py](HTB%20UniCTF/Crypto/Bank-er-smith/solve.py)       | Python / SageMath | HTB UniCTF 2022. RSA. Known bits. Coppersmith attack                                       |
 | [Mayday Mayday](HTB%20UniCTF/Crypto/Mayday%20Mayday) | [solve.py](HTB%20UniCTF/Crypto/Mayday%20Mayday/solve.py)     | Python / SageMath | HTB UniCTF 2023. RSA-CRT. Modular arithmetic. Coppersmith method                           |
-| [MSS Revenge](HTB%20UniCTF/Crypto/MSS%20Revenge)     | [solve.py](HTB%20UniCTF/Crypto/MSS%20Revenge/solve.py)       | Python            | HTB UniCTF 2023. Shamir Secret Sharing. Modular arithmetic. Chinese Remainder Theorem      |
+| [MSS Revenge](HTB%20UniCTF/Crypto/MSS%20Revenge)     | [solve.py](HTB%20UniCTF/Crypto/MSS%20Revenge/solve.py)       | Python            | HTB UniCTF 2023. Mignotte Secret Sharing. Modular arithmetic. Chinese Remainder Theorem    |
 | [Zombie Rolled](HTB%20UniCTF/Crypto/Zombie%20Rolled) | [solve.sage](HTB%20UniCTF/Crypto/Zombie%20Rolled/solve.sage) | SageMath          | HTB UniCTF 2023. Fractions. GCD. RSA signature. Coppersmith method on bivariate polynomial |
 
 | Pwn                                                           | Scripts / Programs                                           | Language | Purpose                                                                                                                                  |
