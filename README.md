@@ -89,9 +89,27 @@ Hope it is useful! :smile:
 
 ## Hack.lu CTF
 
-| Crypto                                     | Scripts / Programs                            | Language          | Purpose                                                                                                        |
-| ------------------------------------------ | --------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
-| [Spooky Safebox](CTFZone/Spooky%20Safebox) | [solve.py](CTFZone/Spooky%20Safebox/solve.py) | Python / SageMath | Hack.lu CTF 2023. RCC. ECDSA. Public key recovery. Biased nonces. Hidden Number Problem. LLL lattice reduction |
+| Crypto                                     | Scripts / Programs                                        | Language          | Purpose                                                                                                        |
+| ------------------------------------------ | --------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| [Spooky Safebox](Hack.lu%20CTF/Spooky%20Safebox) | [solve.py](Hack.lu%20CTF/Spooky%20Safebox/solve.py) | Python / SageMath | Hack.lu CTF 2023. ECC. ECDSA. Public key recovery. Biased nonces. Hidden Number Problem. LLL lattice reduction |
+
+
+## HackOn CTF
+
+| Crypto                                                        | Scripts / Programs                                          | Language          | Purpose                                                                                                     |
+| ------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
+| [Jorge Wants a Token](HackOn%20CTF/Jorge%20Wants%20a%20Token) | [solve.py](HackOn%20CTF/Jorge%20Wants%20a%20Token/solve.py) | Python / SageMath | HackOn CTF 2024. JWT. ECDSA biased nonces. Hidden Number Problem. LLL lattice reduction. Discrete logarithm |
+
+| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                            |
+| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------- |
+| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. FSOP. Stack Pivot. ROP chain |
+| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                               |
+
+| Web                                 | Scripts / Programs                           | Language | Purpose                                                |
+| ----------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------ |
+| [Guglu v2](HackOn%20CTF/Guglu%20v2) | [solve.py](HackOn%20CTF/Guglu%20v2/solve.py) | Python   | HackOn CTF 2024. Flag exfiltration with boolean oracle |
+
+
 
 
 ## HackTheBoo CTF
