@@ -89,8 +89,8 @@ Hope it is useful! :smile:
 
 ## Hack.lu CTF
 
-| Crypto                                     | Scripts / Programs                                        | Language          | Purpose                                                                                                        |
-| ------------------------------------------ | --------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| Crypto                                           | Scripts / Programs                                  | Language          | Purpose                                                                                                        |
+| ------------------------------------------------ | --------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------------------------------- |
 | [Spooky Safebox](Hack.lu%20CTF/Spooky%20Safebox) | [solve.py](Hack.lu%20CTF/Spooky%20Safebox/solve.py) | Python / SageMath | Hack.lu CTF 2023. ECC. ECDSA. Public key recovery. Biased nonces. Hidden Number Problem. LLL lattice reduction |
 
 
@@ -100,16 +100,15 @@ Hope it is useful! :smile:
 | ------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
 | [Jorge Wants a Token](HackOn%20CTF/Jorge%20Wants%20a%20Token) | [solve.py](HackOn%20CTF/Jorge%20Wants%20a%20Token/solve.py) | Python / SageMath | HackOn CTF 2024. JWT. ECDSA biased nonces. Hidden Number Problem. LLL lattice reduction. Discrete logarithm |
 
-| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                            |
-| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------- |
-| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. FSOP. Stack Pivot. ROP chain |
-| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                               |
+| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                              |
+| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------ |
+| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. FSOP. Stack Pivot. ROP chain   |
+| [Kerbab](HackOn%20CTF/Kerbab)                           | [exploit.c](HackOn%20CTF/Kerbab/exploit.c)               | C        | HackOn CTF 2024. Kernel exploitation. Heap exploitation. Off-by-one. `seccomp` rules |
+| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                                 |
 
 | Web                                 | Scripts / Programs                           | Language | Purpose                                                |
 | ----------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------ |
 | [Guglu v2](HackOn%20CTF/Guglu%20v2) | [solve.py](HackOn%20CTF/Guglu%20v2/solve.py) | Python   | HackOn CTF 2024. Flag exfiltration with boolean oracle |
-
-
 
 
 ## HackTheBoo CTF
@@ -180,7 +179,7 @@ Hope it is useful! :smile:
 | [Great Old Talisman](HTB%20UniCTF/Pwn/Great%20Old%20Talisman) | [solve.py](HTB%20UniCTF/Pwn/Great%20Old%20Talisman/solve.py) | Python   | HTB UniCTF 2023. 64-bit binary. OOB write. Partial GOT overwrite                                                                         |
 | [Sacred Scrolls](HTB%20UniCTF/Pwn/Sacred%20Scrolls)           | [solve.py](HTB%20UniCTF/Pwn/Sacred%20Scrolls/solve.py)       | Python   | HTB UniCTF 2022. 64-bit binary. Buffer Overflow. Ret2Libc                                                                                |
 | [Spellbook](HTB%20UniCTF/Pwn/Spellbook)                       | [solve.py](HTB%20UniCTF/Pwn/Spellbook/solve.py)              | Python   | HTB UniCTF 2022. 64-bit binary. Heap exploitation. Use After Free. Fast Bin attack                                                       |
-| [Zombiedote](HTB%20UniCTF/Pwn/Zombiedore)                     | [solve.py](HTB%20UniCTF/Pwn/Zombiedore/solve.py)             | Python   | HTB UniCTF 2023. 64-bit binary. Heap exploitation. OOB read and write. Integer Overflow. Floating-point numbers. TLS-storage `dtor_list` |
+| [Zombiedote](HTB%20UniCTF/Pwn/Zombiedote)                     | [solve.py](HTB%20UniCTF/Pwn/Zombiedote/solve.py)             | Python   | HTB UniCTF 2023. 64-bit binary. Heap exploitation. OOB read and write. Integer Overflow. Floating-point numbers. TLS-storage `dtor_list` |
 | [Zombienator](HTB%20UniCTF/Pwn/Zombienator)                   | [solve.py](HTB%20UniCTF/Pwn/Zombienator/solve.py)            | Python   | HTB UniCTF 2023. 64-bit binary. Heap exploitation. Buffer Overflow. Floating-point numbers. Canary bypass. Ret2Libc. Oracle              |
 
 | Reversing                                               | Scripts / Programs                                          | Language | Purpose                                               |
