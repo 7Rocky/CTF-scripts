@@ -100,11 +100,12 @@ Hope it is useful! :smile:
 | ------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
 | [Jorge Wants a Token](HackOn%20CTF/Jorge%20Wants%20a%20Token) | [solve.py](HackOn%20CTF/Jorge%20Wants%20a%20Token/solve.py) | Python / SageMath | HackOn CTF 2024. JWT. ECDSA biased nonces. Hidden Number Problem. LLL lattice reduction. Discrete logarithm |
 
-| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                              |
-| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------ |
-| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. FSOP. Stack Pivot. ROP chain   |
-| [Kerbab](HackOn%20CTF/Kerbab)                           | [exploit.c](HackOn%20CTF/Kerbab/exploit.c)               | C        | HackOn CTF 2024. Kernel exploitation. Heap exploitation. Off-by-one. `seccomp` rules |
-| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                                 |
+| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                                        |
+| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------- |
+| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. FSOP. Stack Pivot. ROP chain             |
+| [Kerbab](HackOn%20CTF/Kerbab)                           | [exploit.c](HackOn%20CTF/Kerbab/exploit.c)               | C        | HackOn CTF 2024. Kernel exploitation. Heap exploitation. Off-by-one. `seccomp` rules           |
+| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                                           |
+| [Quememu](HackOn%20CTF/Quememu)                         | [exploit.c](HackOn%20CTF/Quememu/exploit.c)              | C        | HackOn CTF 2024. PCI device. MMIO. `qemu` escape. OOB read and write. `mprotect` and shellcode |
 
 | Web                                 | Scripts / Programs                           | Language | Purpose                                                |
 | ----------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------ |
