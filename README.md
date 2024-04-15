@@ -242,11 +242,19 @@ Hope it is useful! :smile:
 | [Sum-O-Primes](picoCTF/Cryptography/Sum-O-Primes) | [solve.py](picoCTF/Cryptography/Sum-O-Primes/solve.py) | Python   | picoCTF 2022. 400 points. RSA decryption |
 
 
+## Plaid CTF
+
+| Crypto                                                                         | Scripts / Programs                                                 | Language          | Purpose                                                                    |
+| ------------------------------------------------------------------------------ | ------------------------------------------------------------------ | ----------------- | -------------------------------------------------------------------------- |
+| [DHCPPP](Plaid%20CTF/DHCPPP)                                                   | [solve.py](Plaid%20CTF/DHCPPP/solve.py)                            | Python / SageMath | Plaid CTF 2024. ChaCha20-Poly1305. Nonce reuse. DNS                        |
+| [Paranormial Commitment Scheme](Plaid%20CTF/Paranormial%20Commitment%20Scheme) | [solve.py](Plaid%20CTF/Paranormial%20Commitment%20Scheme/solve.rs) | Rust              | Plaid CTF 2024. BLS12-381. Elliptic curve pairings. Lagrange interpolation |
+
+
 ## SECCON CTF
 
-| Crypto                                | Scripts / Programs                           | Language            | Purpose                                                            |
-| ------------------------------------- | -------------------------------------------- | ------------------- | ------------------------------------------------------------------ |
-| [plai_n_rsa](SECCON%20CTF/plai_n_rsa) | [solve.py](SECCON%20CTF/plai_n_rsa/solve.py) | Python              | SECCON CTF Quals 2023. RSA. Euler totient function                 |
+| Crypto                                | Scripts / Programs                           | Language | Purpose                                            |
+| ------------------------------------- | -------------------------------------------- | ---------| -------------------------------------------------- |
+| [plai_n_rsa](SECCON%20CTF/plai_n_rsa) | [solve.py](SECCON%20CTF/plai_n_rsa/solve.py) | Python   | SECCON CTF Quals 2023. RSA. Euler totient function |
 
 
 ## Securinets
