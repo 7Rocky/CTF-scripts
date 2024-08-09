@@ -30,11 +30,12 @@ Hope it is useful! :smile:
 
 ## corCTF 2023
 
-| Crypto                            | Scripts / Programs                      | Language          | Purpose                                       |
-| --------------------------------- | --------------------------------------- | ----------------- | --------------------------------------------- |
-| [fizzbuzz101](corCTF/fizzbuzz101) | [solve.py](corCTF/fizzbuzz101/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle       |
-| [fizzbuzz102](corCTF/fizzbuzz102) | [solve.py](corCTF/fizzbuzz102/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle. LCG  |
-| [qcg-k](corCTF/qcg-k)             | [solve.py](corCTF/qcg-k/solve.py)       | Python / SageMath | corCTF 2023. DSA. Recurrence relation. Nonces |
+| Crypto                            | Scripts / Programs                      | Language          | Purpose                                                  |
+| --------------------------------- | --------------------------------------- | ----------------- | -------------------------------------------------------- |
+| [fizzbuzz101](corCTF/fizzbuzz101) | [solve.py](corCTF/fizzbuzz101/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle                  |
+| [fizzbuzz102](corCTF/fizzbuzz102) | [solve.py](corCTF/fizzbuzz102/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle. LCG             |
+| [qcg-k](corCTF/qcg-k)             | [solve.py](corCTF/qcg-k/solve.py)       | Python / SageMath | corCTF 2023. DSA. Recurrence relation. Nonces            |
+| [two-wrongs](corCTF/two-wrongs)   | [solve.py](corCTF/two-wrongs/solve.py)  | Python            | corCTF 2024. Quantum Computing. Quantum Error Correction |
 
 
 ## CTFlearn
