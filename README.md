@@ -28,7 +28,7 @@ Hope it is useful! :smile:
 | [Hope you know JS](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS) | [solve.py](BlackHat%20MEA%20CTF/Hope%20you%20know%20JS/solve.py) | Python   | `z3` solution to a set of conditions |
 
 
-## corCTF 2023
+## corCTF
 
 | Crypto                            | Scripts / Programs                      | Language          | Purpose                                                  |
 | --------------------------------- | --------------------------------------- | ----------------- | -------------------------------------------------------- |
@@ -36,6 +36,19 @@ Hope it is useful! :smile:
 | [fizzbuzz102](corCTF/fizzbuzz102) | [solve.py](corCTF/fizzbuzz102/solve.py) | Python            | corCTF 2023. RSA decryption. LSB oracle. LCG             |
 | [qcg-k](corCTF/qcg-k)             | [solve.py](corCTF/qcg-k/solve.py)       | Python / SageMath | corCTF 2023. DSA. Recurrence relation. Nonces            |
 | [two-wrongs](corCTF/two-wrongs)   | [solve.py](corCTF/two-wrongs/solve.py)  | Python            | corCTF 2024. Quantum Computing. Quantum Error Correction |
+
+
+## CrewCTF
+
+| Crypto                                                         | Scripts / Programs                                                   | Language          | Purpose                                                            |
+| -------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------ |
+| [4ES](CrewCTF/4ES)                                             | [solve.go](CrewCTF/4ES/solve.go)<br>[solve.py](CrewCTF/4ES/solve.py) | Go<br>Python      | CrewCTF 2024. AES. Meet-in-the-middle                              |
+| [Read between the lines](CrewCTF/Read%20between%20the%20lines) | [solve.py](CrewCTF/Read%20between%20the%20lines/solve.py)            | Python / SageMath | CrewCTF 2024. RSA. Integer linear relations. LLL lattice reduction |
+
+
+| Pwn                                      | Scripts / Programs                           | Language | Purpose                                                             |
+| ---------------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------------------- |
+| [Format muscle](CrewCTF/Format%20muscle) | [solve.py](CrewCTF/Format%20muscle/solve.py) | Python   | CrewCTF 2024. Format String vulnerability. musl libc. Exit handlers |
 
 
 ## CTFlearn
