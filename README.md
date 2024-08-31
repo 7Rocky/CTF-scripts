@@ -114,12 +114,12 @@ Hope it is useful! :smile:
 | ------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------- |
 | [Jorge Wants a Token](HackOn%20CTF/Jorge%20Wants%20a%20Token) | [solve.py](HackOn%20CTF/Jorge%20Wants%20a%20Token/solve.py) | Python / SageMath | HackOn CTF 2024. JWT. ECDSA biased nonces. Hidden Number Problem. LLL lattice reduction. Discrete logarithm |
 
-| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                                        |
-| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------- |
-| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. FSOP. Stack Pivot. ROP chain             |
-| [Kerbab](HackOn%20CTF/Kerbab)                           | [exploit.c](HackOn%20CTF/Kerbab/exploit.c)               | C        | HackOn CTF 2024. Kernel exploitation. Heap exploitation. Off-by-one. `seccomp` rules           |
-| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                                           |
-| [Quememu](HackOn%20CTF/Quememu)                         | [exploit.c](HackOn%20CTF/Quememu/exploit.c)              | C        | HackOn CTF 2024. PCI device. MMIO. `qemu` escape. OOB read and write. `mprotect` and shellcode |
+| Pwn                                                     | Scripts / Programs                                       | Language | Purpose                                                                                               |
+| ------------------------------------------------------- | -------------------------------------------------------- | -------- | ----------------------------------------------------------------------------------------------------- |
+| [La casa de papel](HackOn%20CTF/La%20casa%20de%20papel) | [solve.py](HackOn%20CTF/La%20casa%20de%20papel/solve.py) | Python   | HackOn CTF 2024. Heap exploitation. Large Bin attack. `FILE` structure attack. Stack Pivot. ROP chain |
+| [Kerbab](HackOn%20CTF/Kerbab)                           | [exploit.c](HackOn%20CTF/Kerbab/exploit.c)               | C        | HackOn CTF 2024. Kernel exploitation. Heap exploitation. Off-by-one. `seccomp` rules                  |
+| [Noleak](HackOn%20CTF/Noleak)                           | [solve.py](HackOn%20CTF/Noleak/solve.py)                 | Python   | HackOn CTF 2024. Buffer Overflow. ROP. ret2dlresolve                                                  |
+| [Quememu](HackOn%20CTF/Quememu)                         | [exploit.c](HackOn%20CTF/Quememu/exploit.c)              | C        | HackOn CTF 2024. PCI device. MMIO. `qemu` escape. OOB read and write. `mprotect` and shellcode        |
 
 | Web                                 | Scripts / Programs                           | Language | Purpose                                                |
 | ----------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------ |
@@ -179,7 +179,7 @@ Hope it is useful! :smile:
 | [Labyrinth](HTB%20Cyber%20Apocalypse/Pwn/Labyrinth)                    | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Labyrinth/solve.py)         | Python   | HTB Cyber Apocalypse 2023. 64-bit binary. Buffer Overflow. Redirecting program execition                                                    |
 | [Gloater](HTB%20Cyber%20Apocalypse/Pwn/Gloater)                        | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Gloater/solve.py)           | Python   | HTB Cyber Apocalypse 2024. 64-bit binary. Heap exploitation. House of Spirit. Overlapping chunks. Tcache poisoning. TLS-Storage `dtor_list` |
 | [Maze of Mist](HTB%20Cyber%20Apocalypse/Pwn/Maze%20of%20Mist)          | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Maze%20of%20Mist/solve.py)  | Python   | HTB Cyber Apocalypse 2024. 32-bit binary. Buffer Overflow. vDSO ROP. `sys_execve`                                                           |
-| [Math Door](HTB%20Cyber%20Apocalypse/Pwn/Math%20Door)                  | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Math%20Door/solve.py)       | Python   | HTB Cyber Apocalypse 2023. 64-bit binary. Heap exploitation. Heap _feng shui_. Tcache poisoning. FSOP                                       |
+| [Math Door](HTB%20Cyber%20Apocalypse/Pwn/Math%20Door)                  | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Math%20Door/solve.py)       | Python   | HTB Cyber Apocalypse 2023. 64-bit binary. Heap exploitation. Heap _feng shui_. Tcache poisoning. `FILE` structure attack                    |
 | [Oracle](HTB%20Cyber%20Apocalypse/Pwn/Oracle)                          | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Oracle/solve.py)            | Python   | HTB Cyber Apocalypse 2024. 64-bit binary. Heap exploitation. Buffer Overflow. ROP                                                           |
 | [Pandora's Box](HTB%20Cyber%20Apocalypse/Pwn/Pandora%27s%20Box)        | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Pandora%27s%20Box/solve.py) | Python   | HTB Cyber Apocalypse 2023. 64-bit binary. Buffer Overflow. Ret2Libc                                                                         |
 | [Void](HTB%20Cyber%20Apocalypse/Pwn/Void)                              | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Void/solve.py)              | Python   | HTB Cyber Apocalypse 2023. 64-bit binary. Buffer Overflow. ret2dlresolve                                                                    |
@@ -302,6 +302,12 @@ Hope it is useful! :smile:
 | [cryptoGRAPHy 2](Sekai%20CTF/cryptoGRAPHy%202) | [solve.py](Sekai%20CTF/cryptoGRAPHy%202/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Single-Destination Shortest Path. Node degrees |
 | [cryptoGRAPHy 3](Sekai%20CTF/cryptoGRAPHy%203) | [solve.py](Sekai%20CTF/cryptoGRAPHy%203/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Query recovery. Tree isomorphisms              |
 | [Noisy CRC](Sekai%20CTF/Noisy%20CRC)           | [solve.py](Sekai%20CTF/Noisy%20CRC/solve.py)      | Python / SageMath | Sekai CTF 2023. CRC. Chinese Remainder Theorem. Brute force                             |
+| [はやぶさ](Sekai%20CTF/はやぶさ)                  | [solve.py](Sekai%20CTF/はやぶさ/solve.py)          | Python / SageMath | Sekai CTF 2024. Falcon. Lattice attack on NTRU. BKZ. Key recovery attack                |
+| [マスタースパーク](Sekai%20CTF/マスタースパーク)     | [solve.py](Sekai%20CTF/マスタースパーク/solve.py)   | Python / SageMath | Sekai CTF 2024. Isogeny-based cryptography. CSIDH. Discrete logarithm. CRT              |
+
+| Pwn                              | Scripts / Programs                        | Language | Purpose                                      |
+| -------------------------------- | ----------------------------------------- | -------- | -------------------------------------------- |
+| [speedpwn](Sekai%20CTF/speedpwn) | [solve.py](Sekai%20CTF/speedpwn/solve.py) | Python   | Sekai CTF 2024. Uninitialized values. Oracle. `FILE` structure attack. GOT overwrite |
 
 
 ## TeamItaly CTF
