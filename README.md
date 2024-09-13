@@ -294,20 +294,20 @@ Hope it is useful! :smile:
 | [babyreeee](SEETF/babyreeee) | [solve.py](SEETF/babyreeee/solve.py) | Python   | SEETF 2022. Revert encryption algorithm. XOR |
 
 
-## Sekai CTF
+## SekaiCTF
 
-| Crypto                                         | Scripts / Programs                                | Language          | Purpose                                                                                 |
-| ---------------------------------------------- | ------------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------- |
-| [cryptoGRAPHy 1](Sekai%20CTF/cryptoGRAPHy%201) | [solve.py](Sekai%20CTF/cryptoGRAPHy%201/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Key leakage. Decryption                        |
-| [cryptoGRAPHy 2](Sekai%20CTF/cryptoGRAPHy%202) | [solve.py](Sekai%20CTF/cryptoGRAPHy%202/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Single-Destination Shortest Path. Node degrees |
-| [cryptoGRAPHy 3](Sekai%20CTF/cryptoGRAPHy%203) | [solve.py](Sekai%20CTF/cryptoGRAPHy%203/solve.py) | Python            | Sekai CTF 2023. Graph Encryption Scheme. Query recovery. Tree isomorphisms              |
-| [Noisy CRC](Sekai%20CTF/Noisy%20CRC)           | [solve.py](Sekai%20CTF/Noisy%20CRC/solve.py)      | Python / SageMath | Sekai CTF 2023. CRC. Chinese Remainder Theorem. Brute force                             |
-| [はやぶさ](Sekai%20CTF/はやぶさ)                  | [solve.py](Sekai%20CTF/はやぶさ/solve.py)          | Python / SageMath | Sekai CTF 2024. Falcon. Lattice attack on NTRU. BKZ. Key recovery attack                |
-| [マスタースパーク](Sekai%20CTF/マスタースパーク)     | [solve.py](Sekai%20CTF/マスタースパーク/solve.py)   | Python / SageMath | Sekai CTF 2024. Isogeny-based cryptography. CSIDH. Discrete logarithm. CRT              |
+| Crypto                                      | Scripts / Programs                             | Language          | Purpose                                                                                |
+| ------------------------------------------- | ---------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------- |
+| [cryptoGRAPHy 1](SekaiCTF/cryptoGRAPHy%201) | [solve.py](SekaiCTF/cryptoGRAPHy%201/solve.py) | Python            | SekaiCTF 2023. Graph Encryption Scheme. Key leakage. Decryption                        |
+| [cryptoGRAPHy 2](SekaiCTF/cryptoGRAPHy%202) | [solve.py](SekaiCTF/cryptoGRAPHy%202/solve.py) | Python            | SekaiCTF 2023. Graph Encryption Scheme. Single-Destination Shortest Path. Node degrees |
+| [cryptoGRAPHy 3](SekaiCTF/cryptoGRAPHy%203) | [solve.py](SekaiCTF/cryptoGRAPHy%203/solve.py) | Python            | SekaiCTF 2023. Graph Encryption Scheme. Query recovery. Tree isomorphisms              |
+| [Noisy CRC](SekaiCTF/Noisy%20CRC)           | [solve.py](SekaiCTF/Noisy%20CRC/solve.py)      | Python / SageMath | SekaiCTF 2023. CRC. Chinese Remainder Theorem. Brute force                             |
+| [はやぶさ](SekaiCTF/はやぶさ)                  | [solve.py](SekaiCTF/はやぶさ/solve.py)          | Python / SageMath | SekaiCTF 2024. Falcon. Lattice attack on NTRU. BKZ. Key recovery attack                |
+| [マスタースパーク](SekaiCTF/マスタースパーク)     | [solve.py](SekaiCTF/マスタースパーク/solve.py)   | Python / SageMath | SekaiCTF 2024. Isogeny-based cryptography. CSIDH. Discrete logarithm. CRT              |
 
 | Pwn                              | Scripts / Programs                        | Language | Purpose                                      |
 | -------------------------------- | ----------------------------------------- | -------- | -------------------------------------------- |
-| [speedpwn](Sekai%20CTF/speedpwn) | [solve.py](Sekai%20CTF/speedpwn/solve.py) | Python   | Sekai CTF 2024. Uninitialized values. Oracle. `FILE` structure attack. GOT overwrite |
+| [speedpwn](SekaiCTF/speedpwn) | [solve.py](SekaiCTF/speedpwn/solve.py) | Python   | SekaiCTF 2024. Uninitialized values. Oracle. `FILE` structure attack. GOT overwrite |
 
 
 ## TeamItaly CTF
