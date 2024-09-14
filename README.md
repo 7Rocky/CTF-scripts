@@ -234,6 +234,13 @@ Hope it is useful! :smile:
 | [xorrot](ImaginaryCTF/Reversing/xorrot) | [solve.py](ImaginaryCTF/Reversing/xorrot/solve.py) | Python   | ImaginaryCTF 07/07/2022. 50 points. XOR cipher with rotating key |
 
 
+## m0leCon CTF
+
+| Reversing                            | Scripts / Programs                            | Language | Purpose                                                            |
+| ------------------------------------ | --------------------------------------------- | -------- | ------------------------------------------------------------------ |
+| [Go Sweep](m0leCon%20CTF/Go%20Sweep) | [solve.go](m0leCon%20CTF/Go%20Sweep/solve.go) | Go       | m0lecon CTF 2025 Teaser. Go binary. PRNG. Time-based seed. Threads |
+
+
 ## picoCTF
 
 | Binary Exploitation                                                                    | Scripts / Programs                                                                                                                                                                                      | Language              | Purpose                                                                                                                       |
