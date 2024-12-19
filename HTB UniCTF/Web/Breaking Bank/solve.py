@@ -70,20 +70,6 @@ def main():
     )
     log.success(f'Target token: {target_token}')
 
-    requests.post(
-        f'http://{host}/api/users/friend-request',
-        headers={'Authorization': f'Bearer {token}'},
-        json={'to': target_email, 'from': email}
-    )
-    log.info(f'Sent friend request')
-
-    requests.post(
-        f'http://{host}/api/users/accept-friend',
-        headers={'Authorization': f'Bearer {target_token}'},
-        json={'from': email}
-    )
-    log.info(f'Accepted friend request')
-
     balances = requests.get(
         f'http://{host}/api/crypto/balance',
         headers={'Authorization': f'Bearer {target_token}'}
