@@ -67,8 +67,8 @@ Hope it is useful! :smile:
 
 | Crypto                                                           | Scripts / Programs                                          | Language          | Purpose                                                                                |
 | ---------------------------------------------------------------- | ----------------------------------------------------------- | ----------------- | -------------------------------------------------------------------------------------- |
-| [Come on feel the nonce](CTFZone/Come%20on%20feel%20the%20nonce) | [solve.py](CTFZone/Come%20on%20feel%20the%20nonce/solve.py) | Python / SageMath | CTFZone Quals 2023. ECDSA. Biased nonces. Hidden Number Problem. LLL lattice reduction |
-| [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python            | CTFZone Quals 2023. Shamir Secret Sharing. System of equations                         |
+| [Come on feel the nonce](CTFZone/Come%20on%20feel%20the%20nonce) | [solve.py](CTFZone/Come%20on%20feel%20the%20nonce/solve.py) | Python / SageMath | CTFZone 2023 Quals. ECDSA. Biased nonces. Hidden Number Problem. LLL lattice reduction |
+| [Right Decision](CTFZone/Right%20Decision)                       | [solve.py](CTFZone/Right%20Decision/solve.py)               | Python            | CTFZone 2023 Quals. Shamir Secret Sharing. System of equations                         |
 
 
 ## DiceCTF
@@ -82,6 +82,7 @@ Hope it is useful! :smile:
 | Pwn                            | Scripts / Programs                     | Language  | Purpose                                                                                       |
 | ------------------------------ | -------------------------------------- | --------- | --------------------------------------------------------------------------------------------- |
 | [baby-talk](DiceCTF/baby-talk) | [solve.py](DiceCTF/baby-talk/solve.py) | Python    | DiceCTF 2024 Quals. Heap exploitation. Null-byte poison. Overlapping chunks. Tcache poisoning |
+| [oboe](DiceCTF/oboe)           | [solve.c](DiceCTF/oboe/solve.c)        | C         | DiceCTF 2025 Quals. Kernel exploitation. Heap exploitation. Off-by-one. Use After Free. ROP   |
 
 
 ## ECSC 2023
