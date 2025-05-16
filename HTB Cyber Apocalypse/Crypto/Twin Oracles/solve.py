@@ -6,6 +6,7 @@ from Crypto.Util.number import isPrime, long_to_bytes
 
 from server import ChaosRelic
 
+
 def get_process():
     if len(sys.argv) == 1:
         return process(['python3', 'server.py'])
@@ -13,27 +14,18 @@ def get_process():
     host, port = sys.argv[1].split(':')
     return remote(host, port)
 
+
 def query(x: int) -> int:
     io.sendlineafter(b'> ', b'2')
     io.sendlineafter(b"Submit your encrypted scripture for the Seers' judgement: ", hex(x).encode())
     io.recvuntil(b'The Seers whisper their answer: ')
     return int(io.recvline().decode())
 
-primes_8 = {x for x in range(2 ** 7, 2 ** 8) if isPrime(x)}
-primes_15 = {x for x in range(2 ** 14, 2 ** 15) if isPrime(x)}
 
 io = get_process()
 
 io.recvuntil(b"The Ancient Chaos Relic fuels the Seers' wisdom. Behold its power: M = ")
 M = int(io.recvline().decode())
-
-for Mp in primes_8:
-    if M % Mp == 0:
-        break
-
-Mq = M // Mp
-io.info(f'{Mp = }')
-io.info(f'{Mq = }')
 
 io.sendlineafter(b'> ', b'1')
 io.recvuntil(b'The Elders grant you insight: n = ')
@@ -45,6 +37,8 @@ results = []
 queries = 0
 
 queries_prog = io.progress('Queries')
+
+primes_15 = {x for x in range(2 ** 14, 2 ** 15) if isPrime(x)}
 
 while len(primes_15) != 1:
     queries += 1
