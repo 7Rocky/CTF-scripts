@@ -197,6 +197,13 @@ Hope it is useful! :smile:
 | [Void](HTB%20Cyber%20Apocalypse/Pwn/Void)                              | [solve.py](HTB%20Cyber%20Apocalypse/Pwn/Void/solve.py)              | Python   | HTB CA 2023. 64-bit binary. Buffer Overflow. ret2dlresolve                                                                    |
 
 
+## HTB StackSmash CTF
+
+| Pwn                                                 | Scripts / Programs                                       | Language | Purpose                                                                                                               |
+| --------------------------------------------------- | -------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
+| [Refreshments](HTB%20StackSmash%20CTF/Refreshments) | [solve.py](HTB%20StackSmash%20CTF/Refreshments/solve.py) | Python   | HTB StackSmash CTF. 64-bit binary. Heap exploitation. Off-by-one. Overlapping chunks. Fast Bin attack. Use After Free |
+
+
 ## HTB UniCTF
 
 | Crypto                                               | Scripts / Programs                                           | Language          | Purpose                                                                                    |
