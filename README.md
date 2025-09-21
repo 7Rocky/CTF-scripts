@@ -43,12 +43,14 @@ Hope it is useful! :smile:
 | Crypto                                                         | Scripts / Programs                                                   | Language          | Purpose                                                            |
 | -------------------------------------------------------------- | -------------------------------------------------------------------- | ----------------- | ------------------------------------------------------------------ |
 | [4ES](CrewCTF/4ES)                                             | [solve.go](CrewCTF/4ES/solve.go)<br>[solve.py](CrewCTF/4ES/solve.py) | Go<br>Python      | CrewCTF 2024. AES. Meet-in-the-middle                              |
+| [po1337nomial](CrewCTF/po1337nomial)                           | [solve.py](CrewCTF/po1337nomial/solve.py)                            | Python            | CrewCTF 2025. Shuffling. Backtracking. Crack Python `random`       |
 | [Read between the lines](CrewCTF/Read%20between%20the%20lines) | [solve.py](CrewCTF/Read%20between%20the%20lines/solve.py)            | Python / SageMath | CrewCTF 2024. RSA. Integer linear relations. LLL lattice reduction |
 
 
-| Pwn                                      | Scripts / Programs                           | Language | Purpose                                                             |
-| ---------------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------------------- |
-| [Format muscle](CrewCTF/Format%20muscle) | [solve.py](CrewCTF/Format%20muscle/solve.py) | Python   | CrewCTF 2024. Format String vulnerability. musl libc. Exit handlers |
+| Pwn                                      | Scripts / Programs                           | Language | Purpose                                                                                                       |
+| ---------------------------------------- | -------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------- |
+| [Format muscle](CrewCTF/Format%20muscle) | [solve.py](CrewCTF/Format%20muscle/solve.py) | Python   | CrewCTF 2024. Format String vulnerability. musl libc. Exit handlers                                           |
+| [Heap Banging](CrewCTF/Heap%20Banging)   | [solve.py](CrewCTF/Heap%20Banging/solve.py)  | Python   | CrewCTF 2025. Heap exploitation. Heap Overflow. Overlapping Chunks. Fast Bin attack. Use After Free. `calloc` |
 
 
 ## CTFlearn
@@ -199,9 +201,9 @@ Hope it is useful! :smile:
 
 ## HTB StackSmash CTF
 
-| Pwn                                                 | Scripts / Programs                                       | Language | Purpose                                                                                                               |
-| --------------------------------------------------- | -------------------------------------------------------- | -------- | --------------------------------------------------------------------------------------------------------------------- |
-| [Refreshments](HTB%20StackSmash%20CTF/Refreshments) | [solve.py](HTB%20StackSmash%20CTF/Refreshments/solve.py) | Python   | HTB StackSmash CTF. 64-bit binary. Heap exploitation. Off-by-one. Overlapping chunks. Fast Bin attack. Use After Free |
+| Pwn                                                 | Scripts / Programs                                       | Language | Purpose                                                                                                                         |
+| --------------------------------------------------- | -------------------------------------------------------- | -------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| [Refreshments](HTB%20StackSmash%20CTF/Refreshments) | [solve.py](HTB%20StackSmash%20CTF/Refreshments/solve.py) | Python   | HTB StackSmash CTF. 64-bit binary. Heap exploitation. Off-by-one. Overlapping chunks. Fast Bin attack. Use After Free. `calloc` |
 
 
 ## HTB UniCTF
